@@ -1,0 +1,25 @@
+$--color-primary: #006cdf;
+$--border-color-base: #dcdfe6;
+$--border-color-lighter: #ebeef5;
+$--color-success: #13ce66;
+$--color-warning: #e6a23c !default;
+$--color-danger: #f56c6c !default;
+
+$--button-font-weight: 400;
+
+$--border-color-light: #dfe4ed;
+$--border-color-lighter: #e6ebf5;
+
+$--table-border: 1px solid #dfe6ec;
+
+%single-line-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.single-line-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
