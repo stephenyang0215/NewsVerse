@@ -1,6 +1,7 @@
 # News Verse
 
 |Team Members | Roles|
+|----|----|
 
 |Damanjit Singh| Software Development Lead|
 
