@@ -1,16 +1,12 @@
 # News Verse
 
-Team Members and Roles:
-
-Damanjit Singh: Software Development Lead
-
-Abby Gualda: Project Manager (PM) 
-
-Stephen Yang: Quality Assurance (QA) Lead and Configuration Management (CM) Lead
-
-Dewei Wang: Development Team
-
-Yuhang Wang: Development Team
+|Team Members | Roles|
+|----|----|
+|Damanjit Singh| Software Development Lead|
+|Abby Gualda| Project Manager (PM)| 
+|Stephen Yang| Quality Assurance (QA) Lead and Configuration Management (CM) Lead|
+|Dewei Wang| Development Team|
+|Yuhang Wang| Development Team|
 
 # Purpose: 
 
