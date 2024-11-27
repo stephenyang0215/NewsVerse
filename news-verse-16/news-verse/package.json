@@ -8,8 +8,14 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+<<<<<<< HEAD:news-verse-16/news-verse/package.json
     "@fortawesome/fontawesome-free": "^6.6.0",
     "axios": "^1.7.7",
+=======
+    "@aws-sdk/client-dynamodb": "^3.696.0",
+    "@aws-sdk/util-dynamodb": "^3.696.0",
+    "aws-sdk": "^2.1692.0",
+>>>>>>> 6e8db0d4a85c7effad914013dbf20be39984813f:news-verse/package.json
     "core-js": "^3.8.3",
     "element-ui": "^2.15.14",
     "swiper": "^6.8.4",
