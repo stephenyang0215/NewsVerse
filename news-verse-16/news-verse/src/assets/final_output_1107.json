@@ -1,0 +1,2549 @@
+{
+    "business": {
+        "item": [
+            {
+                "topic": "US Presidential Election and Economy",
+                "summary": "The upcoming US presidential election is significantly influenced by economic concerns, with various news sources highlighting the importance of the economy to voters. Issues ranging from inflation to job growth are shaping the electoral landscape, with both major candidates focusing on economic policies in their campaigns.",
+                "news_sources": [
+                    {
+                        "index": 0,
+                        "keywords": [
+                            "Elon Musk",
+                            "Trump",
+                            "economy",
+                            "election"
+                        ],
+                        "bias": "3",
+                        "title": "Elon Musk Keeps Saying Trump Will Tank the Economy",
+                        "url": "https://gizmodo.com/elon-musk-keeps-saying-trump-will-tank-the-economy-2000518006"
+                    },
+                    {
+                        "index": 1,
+                        "keywords": [
+                            "Gen Z",
+                            "US election",
+                            "economy",
+                            "groceries"
+                        ],
+                        "bias": "4",
+                        "title": "For Gen Z, US election is all about the economy",
+                        "url": "https://www.bbc.com/news/articles/czeg87x125ro"
+                    },
+                    {
+                        "index": 2,
+                        "keywords": [
+                            "exit polls",
+                            "democracy",
+                            "economy",
+                            "voters"
+                        ],
+                        "bias": "4",
+                        "title": "Exit polls: US voters name democracy and economy as top issues",
+                        "url": "https://www.bbc.com/news/articles/c0lp48ldgyeo"
+                    },
+                    {
+                        "index": 3,
+                        "keywords": [
+                            "Georgia",
+                            "early vote",
+                            "democracy",
+                            "economy"
+                        ],
+                        "bias": "4",
+                        "title": "All eyes on early vote results in key swing state of Georgia",
+                        "url": "https://www.bbc.com/news/articles/clyg856px7eo"
+                    },
+                    {
+                        "index": 5,
+                        "keywords": [
+                            "abortion",
+                            "economy",
+                            "election"
+                        ],
+                        "bias": "4",
+                        "title": "Why abortion referendums are also about the economy",
+                        "url": "https://www.npr.org/2024/10/30/nx-s1-5172193/abortion-economy-state-ballot-2024"
+                    },
+                    {
+                        "index": 6,
+                        "keywords": [
+                            "NASA",
+                            "economy",
+                            "impact report"
+                        ],
+                        "bias": "4",
+                        "title": "NASA Generated $76 Billion For US Economy In 2023",
+                        "url": "https://news.slashdot.org/story/24/10/29/0644231/nasa-generated-76-billion-for-us-economy-in-2023"
+                    },
+                    {
+                        "index": 10,
+                        "keywords": [
+                            "Robinhood",
+                            "commercial space",
+                            "economy",
+                            "solar power"
+                        ],
+                        "bias": "4",
+                        "title": "Robinhood's cofounder has joined the rapidly growing commercial space race, and wants to beam solar power from satellites to earth",
+                        "url": "https://www.businessinsider.com/baiju-bhatt-robinhood-cofounder-aetherflux-space-startup-satellite-constellation-energy-2024-10"
+                    },
+                    {
+                        "index": 11,
+                        "keywords": [
+                            "California",
+                            "Texas",
+                            "economic growth",
+                            "corporate HQs"
+                        ],
+                        "bias": "4",
+                        "title": "California's economic growth is slipping behind Texas as the Lone Star state draws corporate HQs and people",
+                        "url": "https://www.businessinsider.com/california-economic-growth-slipping-behind-texas-gdp-corporate-residents-2024-10"
+                    },
+                    {
+                        "index": 12,
+                        "keywords": [
+                            "stock market",
+                            "CPI",
+                            "inflation"
+                        ],
+                        "bias": "4",
+                        "title": "Stock market today: Indexes close lower after CPI shows sticky inflation in September",
+                        "url": "https://markets.businessinsider.com/news/stocks/stock-market-inflation-cpi-data-jobless-claims-labor-market-landing-2024-10"
+                    },
+                    {
+                        "index": 14,
+                        "keywords": [
+                            "Saudi Arabia",
+                            "global spending",
+                            "domestic economy"
+                        ],
+                        "bias": "4",
+                        "title": "Saudi Arabia is pulling back on a global spending spree to focus on its own projects",
+                        "url": "https://www.businessinsider.com/saudi-arabia-pif-pulling-back-global-spending-spree-neom-2024-10"
+                    }
+                ]
+            },
+            {
+                "topic": "Global Economy",
+                "summary": "Various articles discuss challenges faced by the global economy, including issues in China, Spain, and challenges arising from political changes in the US. The interconnectedness of local economies, international politics, and economic policies is a recurrent theme.",
+                "news_sources": [
+                    {
+                        "index": 7,
+                        "keywords": [
+                            "China",
+                            "debt issuance",
+                            "revive economy"
+                        ],
+                        "bias": "4",
+                        "title": "China to increase debt issuance in bid to revive economy",
+                        "url": "https://www.businessinsider.com/china-to-increase-debt-issuance-in-bid-to-revive-economy-2024-10"
+                    },
+                    {
+                        "index": 8,
+                        "keywords": [
+                            "Spain",
+                            "immigrants",
+                            "boost economy"
+                        ],
+                        "bias": "4",
+                        "title": "Spain is betting on immigrants to boost its economy",
+                        "url": "https://www.businessinsider.com/spain-is-betting-on-immigrants-to-boost-its-economy-2024-10"
+                    },
+                    {
+                        "index": 9,
+                        "keywords": [
+                            "Jellysmack",
+                            "staff layoffs",
+                            "creator economy"
+                        ],
+                        "bias": "4",
+                        "title": "Jellysmack is laying off staff as it scales back its creator program",
+                        "url": "https://www.businessinsider.com/jellysmack-layoffs-restructuring-creator-economy-influencer-content-softbank-investment-2024-10"
+                    },
+                    {
+                        "index": 13,
+                        "keywords": [
+                            "China",
+                            "stocks",
+                            "rally"
+                        ],
+                        "bias": "4",
+                        "title": "Why Chinese stocks will climb another 50% from current levels, research CEO says",
+                        "url": "https://markets.businessinsider.com/news/stocks/china-stocks-economy-stimulus-csi-300-hang-seng-index-price-2024-10"
+                    },
+                    {
+                        "index": 15,
+                        "keywords": [
+                            "Trump",
+                            "US economy",
+                            "shock"
+                        ],
+                        "bias": "3",
+                        "title": "The US economy is in for a double shock if Trump is elected president, Nobel economist Paul Krugman says",
+                        "url": "https://www.businessinsider.com/trump-harris-economy-outlook-inflation-job-market-election-paul-krugman-2024-10"
+                    },
+                    {
+                        "index": 18,
+                        "keywords": [
+                            "Trump",
+                            "tariffs",
+                            "deportations",
+                            "economy"
+                        ],
+                        "bias": "3",
+                        "title": "Here's what Trump 2.0 means for the economy, from tariffs to mass deportations.",
+                        "url": "https://www.npr.org/2024/11/06/nx-s1-5181327/trump-election-economy-tariffs-deportations"
+                    },
+                    {
+                        "index": 19,
+                        "keywords": [
+                            "Guyana",
+                            "households",
+                            "oil boom",
+                            "economy"
+                        ],
+                        "bias": "4",
+                        "title": "This tiny country is giving $2,000 to every household as an Exxon oil boom supercharges its economy",
+                        "url": "https://www.businessinsider.com/guyana-government-cash-payment-households-oil-boom-economy-exxon-ubi-2024-10"
+                    },
+                    {
+                        "index": 20,
+                        "keywords": [
+                            "Steve Schwarzman",
+                            "economy",
+                            "recession"
+                        ],
+                        "bias": "4",
+                        "title": "No recession risk regardless of who wins the White House, says Blackstone's Steve Schwarzman",
+                        "url": "https://www.businessinsider.com/us-economy-recession-outlook-schwarzman-blackstone-trump-harris-election-inflation-2024-10"
+                    },
+                    {
+                        "index": 22,
+                        "keywords": [
+                            "China",
+                            "inflation",
+                            "stimulus"
+                        ],
+                        "bias": "4",
+                        "title": "Prices in China are stagnating, putting more pressure on Beijing to jump-start the economy",
+                        "url": "https://www.businessinsider.com/china-economy-deflation-stimulus-government-property-bubble-unemployment-growth-prices-2024-10"
+                    },
+                    {
+                        "index": 23,
+                        "keywords": [
+                            "Iraqi Kurds",
+                            "elections",
+                            "economy"
+                        ],
+                        "bias": "5",
+                        "title": "Iraqi Kurds go to the polls with a flagging economy top of mind",
+                        "url": "https://www.npr.org/2024/10/21/g-s1-29140/iraqi-kurds-go-to-the-polls-with-a-flagging-economy-top-of-mind"
+                    }
+                ]
+            },
+            {
+                "topic": "Economic Policies and Proposals",
+                "summary": "The economic policies proposed by candidates and governments aim to address inflation, job growth, and to adapt to current economic realities. Reports evaluate the effectiveness and implications of these policies on various sectors.",
+                "news_sources": [
+                    {
+                        "index": 4,
+                        "keywords": [
+                            "British Airways",
+                            "economy class",
+                            "upgrade"
+                        ],
+                        "bias": "4",
+                        "title": "I flew on a British Airways A380 in economy and premium economy. Upgrading isn't really worth it.",
+                        "url": "https://www.businessinsider.com/british-airways-airbus-a380-premium-economy-review-upgrade-cost-2024-10"
+                    },
+                    {
+                        "index": 16,
+                        "keywords": [
+                            "Chancellor",
+                            "debt rules",
+                            "infrastructure"
+                        ],
+                        "bias": "4",
+                        "title": "Chancellor to change debt rules to release billions for infrastructure spending",
+                        "url": "https://www.bbc.com/news/articles/cvg745ggn3no"
+                    },
+                    {
+                        "index": 24,
+                        "keywords": [
+                            "AI",
+                            "economy",
+                            "productivity"
+                        ],
+                        "bias": "4",
+                        "title": "Americans are using AI at fairly high rates. What does this mean for the economy?",
+                        "url": "https://www.npr.org/sections/planet-money/2024/10/07/g-s1-26429/americans-using-ai-fairly-high-rates-what-does-this-mean-for-economy"
+                    },
+                    {
+                        "index": 28,
+                        "keywords": [
+                            "Canada",
+                            "immigration",
+                            "economy"
+                        ],
+                        "bias": "3",
+                        "title": "Justin Trudeau, a champion of immigration, says he overdid it and strained Canada's economy",
+                        "url": "https://www.businessinsider.com/justin-trudeau-champion-immigration-overdid-it-economy-housing-population-canada2024-10"
+                    },
+                    {
+                        "index": 32,
+                        "keywords": [
+                            "New York Times",
+                            "subscriber growth",
+                            "economy"
+                        ],
+                        "bias": "4",
+                        "title": "New York Times subscriber growth slows in uncertain economy",
+                        "url": "https://finance.yahoo.com/video/york-times-subscriber-growth-slows-211856884.html"
+                    },
+                    {
+                        "index": 33,
+                        "keywords": [
+                            "swing states",
+                            "economy"
+                        ],
+                        "bias": "4",
+                        "title": "How the Economy is Doing in the Swing States",
+                        "url": "https://time.com/7096021/economy-swing-states/"
+                    },
+                    {
+                        "index": 37,
+                        "keywords": [
+                            "Harris",
+                            "Trump",
+                            "blue wall",
+                            "economy"
+                        ],
+                        "bias": "4",
+                        "title": "The blue wall battlegrounds will be won or lost on the economy. Here's where Harris stands in these critical states.",
+                        "url": "https://www.businessinsider.com/harris-trump-blue-wall-economic-message-unions-michigan-pennsylvania-wisconsin-2024-10"
+                    },
+                    {
+                        "index": 38,
+                        "keywords": [
+                            "IMF",
+                            "growth forecast",
+                            "US economy"
+                        ],
+                        "bias": "4",
+                        "title": "The IMF just raised its growth forecast for the US economy this year \u2014 but expects a slowdown in 2025",
+                        "url": "https://www.businessinsider.com/imf-us-economy-growth-outlook-forecast-china-gdp-ai-microchips-2024-10"
+                    },
+                    {
+                        "index": 39,
+                        "keywords": [
+                            "Iceland",
+                            "work week",
+                            "economy"
+                        ],
+                        "bias": "4",
+                        "title": "Iceland embraced a shorter work week. Here\u2019s how it turned out",
+                        "url": "https://www.cnn.com/2024/10/25/business/iceland-shorter-working-week-economy?cid=external-feeds_iluminar_yahoo"
+                    },
+                    {
+                        "index": 46,
+                        "keywords": [
+                            "Trump",
+                            "economy",
+                            "expert opinion"
+                        ],
+                        "bias": "4",
+                        "title": "Pig Butchering Scams Are Going High Tech",
+                        "url": "https://www.wired.com/story/pig-butchering-scams-go-high-tech/"
+                    }
+                ]
+            }
+        ],
+        "urlToImage": ""
+    },
+    "entertainment": {
+        "item": [
+            {
+                "topic": "Horror Movies",
+                "summary": "A collection of articles exploring various horror movies available for streaming and upcoming releases for the spooky season.",
+                "news_sources": [
+                    {
+                        "index": 2,
+                        "keywords": [
+                            "horror movies",
+                            "Netflix",
+                            "Halloween"
+                        ],
+                        "bias": 4,
+                        "title": "10 Scary Horror Movies to Watch on Netflix Tonight",
+                        "url": "https://gizmodo.com/best-halloween-horror-streaming-netflix-2024-2000510627"
+                    },
+                    {
+                        "index": 3,
+                        "keywords": [
+                            "horror movies",
+                            "Max",
+                            "spooky season"
+                        ],
+                        "bias": 4,
+                        "title": "The 10 Most Nightmare-Inducing Movies on Max",
+                        "url": "https://gizmodo.com/the-10-most-nightmare-inducing-movies-in-maxs-no-sleep-october-programming-2000511197"
+                    },
+                    {
+                        "index": 10,
+                        "keywords": [
+                            "Kraven the Hunter",
+                            "Marvel",
+                            "violence"
+                        ],
+                        "bias": 4,
+                        "title": "The Opening to Kraven The Hunter Is a Brutal Trap",
+                        "url": "https://gizmodo.com/nycc-2024-kraven-movie-footage-description-opening-marvel-2000514019"
+                    },
+                    {
+                        "index": 12,
+                        "keywords": [
+                            "Peacock",
+                            "horror movies",
+                            "Halloween"
+                        ],
+                        "bias": 4,
+                        "title": "10 Freaky Flicks to Stream on Peacock Tonight",
+                        "url": "https://gizmodo.com/10-freaky-flicks-to-stream-on-peacock-tonight-2000515133"
+                    },
+                    {
+                        "index": 17,
+                        "keywords": [
+                            "Halloween",
+                            "Disney+",
+                            "horror movies"
+                        ],
+                        "bias": 4,
+                        "title": "Count Down to Halloween With These 10 Scary Hulu and Disney+ Movies",
+                        "url": "https://gizmodo.com/halloween-best-streaming-horror-hulu-disney-plus-2000517558"
+                    },
+                    {
+                        "index": 41,
+                        "keywords": [
+                            "Prime Video",
+                            "horror movies",
+                            "October"
+                        ],
+                        "bias": 4,
+                        "title": "The Best Horror Movies on Prime Video to Watch Around Halloween",
+                        "url": "https://www.cnet.com/tech/services-and-software/the-best-horror-films-on-prime-video-october-2024/"
+                    },
+                    {
+                        "index": 42,
+                        "keywords": [
+                            "Netflix",
+                            "Halloween",
+                            "horror movies"
+                        ],
+                        "bias": 4,
+                        "title": "10 Best Horror Movies to Watch on Netflix Right Now for Halloween",
+                        "url": "https://www.cnet.com/tech/services-and-software/10-best-horror-movies-to-watch-on-netflix-right-now-halloween/"
+                    },
+                    {
+                        "index": 48,
+                        "keywords": [
+                            "scary movies",
+                            "spooky season"
+                        ],
+                        "bias": 4,
+                        "title": "Scary Movies for Spooky Season",
+                        "url": "https://www.newyorker.com/culture/goings-on/scary-movies-for-spooky-season"
+                    },
+                    {
+                        "index": 60,
+                        "keywords": [
+                            "Godzilla",
+                            "horror movies",
+                            "toys"
+                        ],
+                        "bias": 4,
+                        "title": "The Wild Robot Will Return With a Sequel",
+                        "url": "https://gizmodo.com/the-wild-robot-dreamworks-sequel-2000511461"
+                    },
+                    {
+                        "index": 75,
+                        "keywords": [
+                            "Terrifier 3",
+                            "box office",
+                            "Halloween"
+                        ],
+                        "bias": 4,
+                        "title": "Terrifier 3 Kicked Some Box Office Butt This Weekend",
+                        "url": "https://gizmodo.com/terrifier-3-box-office-joker-2-2000511591"
+                    }
+                ]
+            },
+            {
+                "topic": "Streaming and Movies",
+                "summary": "Updates on various movie releases, streaming deals, and upcoming films.",
+                "news_sources": [
+                    {
+                        "index": 1,
+                        "keywords": [
+                            "fantasy movies",
+                            "streaming",
+                            "Netflix"
+                        ],
+                        "bias": 4,
+                        "title": "10 Fantasy Movies to Help You Escape Reality Right Now",
+                        "url": "https://gizmodo.com/10-fantasy-movies-to-help-you-escape-reality-right-now-2000521177"
+                    },
+                    {
+                        "index": 4,
+                        "keywords": [
+                            "Netflix",
+                            "movies",
+                            "quality"
+                        ],
+                        "bias": 6,
+                        "title": "Netflix\u2019s New Plan Is to Make Movies That Suck Less",
+                        "url": "https://gizmodo.com/netflixs-new-plan-is-to-make-movies-that-suck-less-2000514553"
+                    },
+                    {
+                        "index": 5,
+                        "keywords": [
+                            "Predator",
+                            "movies",
+                            "2025"
+                        ],
+                        "bias": 4,
+                        "title": "2 New Predator Movies Are Coming in 2025",
+                        "url": "https://gizmodo.com/2-new-predator-movies-are-coming-in-2025-2000516237"
+                    },
+                    {
+                        "index": 6,
+                        "keywords": [
+                            "Disney",
+                            "Predator",
+                            "Blade"
+                        ],
+                        "bias": 4,
+                        "title": "Disney Replaces Blade on Release Schedule with New Predator Movie",
+                        "url": "https://gizmodo.com/blade-release-date-cancel-prey-2-predator-2000515095"
+                    },
+                    {
+                        "index": 7,
+                        "keywords": [
+                            "Agatha",
+                            "MCU",
+                            "Disney+"
+                        ],
+                        "bias": 4,
+                        "title": "Agatha All Along\u2018s Creator Is Relieved to Be Set Apart From the MCU",
+                        "url": "https://gizmodo.com/agatha-all-along-mcu-connections-jack-shaeffer-disney-plus-2000510060"
+                    },
+                    {
+                        "index": 18,
+                        "keywords": [
+                            "Netflix",
+                            "Universal",
+                            "live-action films"
+                        ],
+                        "bias": 6,
+                        "title": "Netflix\u2019s deal with Universal will add more live-action films",
+                        "url": "https://www.theverge.com/2024/10/29/24282823/netflix-licensing-deal-universal-films-live-action-animation"
+                    },
+                    {
+                        "index": 34,
+                        "keywords": [
+                            "Disney",
+                            "movie slate",
+                            "2025"
+                        ],
+                        "bias": 5,
+                        "title": "Disney Sets Some More Dates For Its 2025 Movie Slate",
+                        "url": "https://gizmodo.com/disney-freaky-friday-2-lilo-stitch-2025-dates-2000511395"
+                    },
+                    {
+                        "index": 35,
+                        "keywords": [
+                            "Tom Holland",
+                            "Christopher Nolan",
+                            "movie"
+                        ],
+                        "bias": 6,
+                        "title": "Tom Holland Joins Christopher Nolan\u2019s Next Movie, and We Heard a Great Rumor About It",
+                        "url": "https://gizmodo.com/christopher-nolan-new-movie-plot-tom-holland-imax-2000514765"
+                    },
+                    {
+                        "index": 43,
+                        "keywords": [
+                            "new movies",
+                            "October",
+                            "2024"
+                        ],
+                        "bias": 4,
+                        "title": "The Best New Movies of October 2024",
+                        "url": "https://time.com/7160762/best-new-movies-october-2024/"
+                    },
+                    {
+                        "index": 76,
+                        "keywords": [
+                            "James Bond",
+                            "Amazon",
+                            "MGM"
+                        ],
+                        "bias": 4,
+                        "title": "Amazon MGM is Taking No Time to Rush James Bond\u2019s Return",
+                        "url": "https://gizmodo.com/mgm-james-bond-next-movie-2000511547"
+                    }
+                ]
+            },
+            {
+                "topic": "Streaming Deals and Technology",
+                "summary": "Highlighting current deals and technology related to streaming services and gadgets.",
+                "news_sources": [
+                    {
+                        "index": 8,
+                        "keywords": [
+                            "Insignia",
+                            "smart HD Fire TV",
+                            "Prime Day"
+                        ],
+                        "bias": 4,
+                        "title": "Better Than Black Friday on Insignia Smart HD Fire TV, Spend Less Than $75 for The Early Prime Day",
+                        "url": "https://gizmodo.com/better-than-black-friday-on-insignia-smart-hd-fire-tv-spend-less-than-75-2000508488"
+                    },
+                    {
+                        "index": 9,
+                        "keywords": [
+                            "BitMar",
+                            "AI-powered content finder"
+                        ],
+                        "bias": 4,
+                        "title": "Small Price for Millions of Free Content with BitMar\u2019s AI-Powered Content Finder, Just $15!",
+                        "url": "https://gizmodo.com/small-price-for-millions-of-free-content-with-bitmars-ai-powered-content-finder-just-15-2000512074"
+                    },
+                    {
+                        "index": 22,
+                        "keywords": [
+                            "Amazon",
+                            "Fire HD TV",
+                            "Prime Day"
+                        ],
+                        "bias": 4,
+                        "title": "This Amazon 32\u2033 Fire HD TV Is Still Live at the Prime Day Price",
+                        "url": "https://gizmodo.com/this-amazon-32\u2033-fire-hd-tv-is-still-live-at-the-prime-day-price-2000511802"
+                    },
+                    {
+                        "index": 40,
+                        "keywords": [
+                            "Prime Video",
+                            "horror movies"
+                        ],
+                        "bias": 4,
+                        "title": "8 shows and movies like 'Woman of the Hour' to watch next for your true crime fix",
+                        "url": "https://www.businessinsider.com/shows-movies-like-woman-of-the-hour-true-crime-2024-10"
+                    },
+                    {
+                        "index": 48,
+                        "keywords": [
+                            "Amazon",
+                            "portable monitor",
+                            "discount"
+                        ],
+                        "bias": 4,
+                        "title": "Scary Movies for Spooky Season",
+                        "url": "https://www.newyorker.com/culture/goings-on/scary-movies-for-spooky-season"
+                    },
+                    {
+                        "index": 83,
+                        "keywords": [
+                            "Bose",
+                            "headphones",
+                            "Prime Day"
+                        ],
+                        "bias": 4,
+                        "title": "Amazon is Offering a Huge Discount on The Bose QuietComfort Ultra if You Buy it Before The End of Prime Day Tonight",
+                        "url": "https://gizmodo.com/amazon-is-offering-a-huge-discount-on-the-bose-quietcomfort-ultra-if-you-buy-it-before-the-end-of-prime-day-tonight-2000509779"
+                    },
+                    {
+                        "index": 86,
+                        "keywords": [
+                            "Bose",
+                            "QuietComfort Ultra",
+                            "discount"
+                        ],
+                        "bias": 4,
+                        "title": "A Week After Prime Day, Amazon Offers Record-Low Price on Bose QC Ultra Headphones",
+                        "url": "https://gizmodo.com/a-week-after-prime-day-amazon-offers-record-low-price-on-bose-qc-ultra-headphones-2000511849"
+                    },
+                    {
+                        "index": 87,
+                        "keywords": [
+                            "Amazon",
+                            "Fire 7 Tablet",
+                            "entertainment"
+                        ],
+                        "bias": 4,
+                        "title": "Get Amazon\u2019s Newest Fire 7 Tablet at Its Lowest Price Before It\u2019s Gone for Good",
+                        "url": "https://gizmodo.com/get-amazons-newest-fire-7-tablet-at-its-lowest-price-before-its-gone-for-good-2000512982"
+                    }
+                ]
+            },
+            {
+                "topic": "Celebrity and Entertainment News",
+                "summary": "Covering notable celebrity news and updates in the entertainment industry.",
+                "news_sources": [
+                    {
+                        "index": 14,
+                        "keywords": [
+                            "Teri Garr",
+                            "actress",
+                            "death"
+                        ],
+                        "bias": 4,
+                        "title": "Actress Teri Garr, star of Young Frankenstein, dies",
+                        "url": "https://www.bbc.com/news/articles/cje09595v5ko"
+                    },
+                    {
+                        "index": 67,
+                        "keywords": [
+                            "Robert Zemeckis",
+                            "movies",
+                            "ranking"
+                        ],
+                        "bias": 4,
+                        "title": "10 best Robert Zemeckis movies, ranked",
+                        "url": "https://www.digitaltrends.com/movies/10-best-robert-zemeckis-movies-ranked/"
+                    },
+                    {
+                        "index": 68,
+                        "keywords": [
+                            "Kristen Bell",
+                            "Frozen",
+                            "kids"
+                        ],
+                        "bias": 4,
+                        "title": "Kristen Bell says her kids aren't 'Frozen' fans, but like that it'll pay for their college",
+                        "url": "https://www.businessinsider.com/kristen-bell-frozen-kids-pay-college-billion-dollar-movie-2024-10"
+                    },
+                    {
+                        "index": 69,
+                        "keywords": [
+                            "books",
+                            "movies",
+                            "recommendations"
+                        ],
+                        "bias": 4,
+                        "title": "Six Books for People Who Love Movies",
+                        "url": "https://www.theatlantic.com/books/archive/2024/10/film-cinematic-book-recommendations/680190/"
+                    },
+                    {
+                        "index": 70,
+                        "keywords": [
+                            "Terrifier",
+                            "streaming",
+                            "spooky"
+                        ],
+                        "bias": 4,
+                        "title": "Watch 'Terrifier' and 'Terrifier 2' for Free on These Streaming Services",
+                        "url": "https://www.cnet.com/tech/services-and-software/watch-terrifier-and-terrifier-2-for-free-on-these-streaming-services/"
+                    },
+                    {
+                        "index": 72,
+                        "keywords": [
+                            "The Wild Robot",
+                            "sequel",
+                            "Dreamworks"
+                        ],
+                        "bias": 4,
+                        "title": "The Wild Robot, the #2 Movie at the Box Office, Is Already at Home",
+                        "url": "https://gizmodo.com/wild-robot-home-release-pedro-pascal-dreamworks-2000512327"
+                    },
+                    {
+                        "index": 53,
+                        "keywords": [
+                            "Scary Movie",
+                            "Wayans Brothers"
+                        ],
+                        "bias": 4,
+                        "title": "Here\u2019s Wassup With That Scary Movie Reboot",
+                        "url": "https://gizmodo.com/scary-movie-reboot-wayans-brothers-2000518013"
+                    },
+                    {
+                        "index": 4,
+                        "keywords": [
+                            "Netflix",
+                            "movie quality"
+                        ],
+                        "bias": 6,
+                        "title": "Netflix\u2019s New Plan Is to Make Movies That Suck Less",
+                        "url": "https://gizmodo.com/netflixs-new-plan-is-to-make-movies-that-suck-less-2000514553"
+                    },
+                    {
+                        "index": 65,
+                        "keywords": [
+                            "Joker",
+                            "adaptation",
+                            "box office"
+                        ],
+                        "bias": 6,
+                        "title": "'Joker: Folie \u00e0 Deux' Might Be the Worst Comic Book Adaptation of All Time",
+                        "url": "https://www.wired.com/story/is-joker-folie-a-deux-really-the-worst-comic-book-adaptation-of-all-time/"
+                    },
+                    {
+                        "index": 74,
+                        "keywords": [
+                            "sci-fi",
+                            "streaming",
+                            "movies"
+                        ],
+                        "bias": 4,
+                        "title": "Escape Planet Earth With These 10 Streaming Sci-Fi Films",
+                        "url": "https://gizmodo.com/best-space-movies-streaming-netflix-max-prime-video-2000520245"
+                    }
+                ]
+            }
+        ],
+        "urlToImage": ""
+    },
+    "general": {
+        "item": [
+            {
+                "topic": "Elon Musk and Politics",
+                "summary": "Elon Musk is impacting political landscapes through unconventional methods such as large financial incentives for voter participation, legal disputes over regulatory decisions, and active support for specific candidates. His actions illustrate a significant intersection between technology and politics.",
+                "news_sources": [
+                    {
+                        "index": "0",
+                        "keywords": [
+                            "Elon Musk",
+                            "politics",
+                            "MrBeast of politics"
+                        ],
+                        "bias": "4",
+                        "title": "Elon Musk Is Trying to Be the MrBeast of Politics",
+                        "url": "https://gizmodo.com/elon-musk-is-trying-to-be-the-mrbeast-of-politics-2000514361"
+                    },
+                    {
+                        "index": "4",
+                        "keywords": [
+                            "social media",
+                            "Big Tech",
+                            "politics"
+                        ],
+                        "bias": "5",
+                        "title": "Ahead of the Election, Social Media Platforms Have Given Up",
+                        "url": "https://www.wired.com/story/tech-companies-abdicated-responsibility-for-their-platforms/"
+                    },
+                    {
+                        "index": "35",
+                        "keywords": [
+                            "Elon Musk",
+                            "Putin",
+                            "national security threat"
+                        ],
+                        "bias": "3",
+                        "title": "With Putin Calls, It\u2019s More Clear Than Ever That Elon Musk Is a National Security Threat",
+                        "url": "https://gizmodo.com/with-putin-calls-its-more-clear-than-ever-that-elon-musk-is-a-national-security-threat-2000516544"
+                    },
+                    {
+                        "index": "54",
+                        "keywords": [
+                            "Elon Musk",
+                            "lawsuit",
+                            "California"
+                        ],
+                        "bias": "5",
+                        "title": "Elon Musk sues California commission who blocked more SpaceX launches, accusing it of 'unconstitutional overreach'",
+                        "url": "https://www.businessinsider.com/elon-musk-free-speech-lawsuit-california-coastal-commission-spacex-2024-10"
+                    },
+                    {
+                        "index": "97",
+                        "keywords": [
+                            "Elon Musk",
+                            "campaign",
+                            "Trump"
+                        ],
+                        "bias": "8",
+                        "title": "Flight logs show Elon Musk's private jets are busy hitting swing states as he campaigns for Trump",
+                        "url": "https://www.businessinsider.com/elon-musk-private-jet-hits-swing-states-campaigns-donald-trump-2024-10"
+                    }
+                ]
+            },
+            {
+                "topic": "Trump's Political Landscape",
+                "summary": "Donald Trump remains a dominant figure in American politics as he campaigns for a third presidential term, influencing various political dynamics through rallies, endorsements, and ongoing controversies. The articles demonstrate varying public perceptions and complex interactions with different voter bases.",
+                "news_sources": [
+                    {
+                        "index": "1",
+                        "keywords": [
+                            "Trump",
+                            "Venezuela",
+                            "CIA"
+                        ],
+                        "bias": "4",
+                        "title": "The Untold Story of Trump's Failed Attempt to Overthrow Venezuela's President",
+                        "url": "https://www.wired.com/story/trump-cia-venezuela-maduro-regime-change-plot/"
+                    },
+                    {
+                        "index": "10",
+                        "keywords": [
+                            "Trump",
+                            "voter persuasion",
+                            " ads"
+                        ],
+                        "bias": "7",
+                        "title": "Meet the Democrats using porn ads to convince Trump voters to stay home",
+                        "url": "https://www.npr.org/2024/11/01/nx-s1-5168877/2024-election-pac-trump-porn-sites"
+                    },
+                    {
+                        "index": "90",
+                        "keywords": [
+                            "Schwarzenegger",
+                            "Harris",
+                            "endorsement"
+                        ],
+                        "bias": "5",
+                        "title": "Arnold Schwarzenegger has endorsed Kamala Harris for president",
+                        "url": "https://www.npr.org/2024/10/31/nx-s1-5173456/arnold-schwarzenegger-endorses-kamala-harris"
+                    },
+                    {
+                        "index": "44",
+                        "keywords": [
+                            "celebrity endorsements",
+                            "Trump",
+                            "politics"
+                        ],
+                        "bias": "6",
+                        "title": "The Celebrities Are Saying the Loud Part Quietly",
+                        "url": "https://www.theatlantic.com/culture/archive/2024/10/kamala-harris-celebrity-endorsements-eminem/680430/"
+                    },
+                    {
+                        "index": "93",
+                        "keywords": [
+                            "Black women",
+                            "Senate",
+                            "election"
+                        ],
+                        "bias": "4",
+                        "title": "Two Black women will serve together in the Senate for the first time",
+                        "url": "https://www.npr.org/2024/11/06/g-s1-32817/black-female-senators-angela-alsobrooks-lisa-blunt-rochester"
+                    }
+                ]
+            },
+            {
+                "topic": "Divided American Politics",
+                "summary": "The articles highlight the deep polarization and stress surrounding the upcoming elections, showcasing the differing perspectives on political issues that are affecting both public discourse and personal relationships among Americans.",
+                "news_sources": [
+                    {
+                        "index": "13",
+                        "keywords": [
+                            "political disagreements",
+                            "stress",
+                            "election"
+                        ],
+                        "bias": "6",
+                        "title": "Are political disagreements stressing you out? Here are tips to bridge the divide",
+                        "url": "https://www.npr.org/sections/shots-health-news/2024/10/14/nx-s1-5057929/anxiety-stress-politics-election-2024-polarization"
+                    },
+                    {
+                        "index": "71",
+                        "keywords": [
+                            "economy",
+                            "young voters",
+                            "election"
+                        ],
+                        "bias": "4",
+                        "title": "For Gen Z, US election is all about the economy",
+                        "url": "https://www.bbc.com/news/articles/czeg87x125ro"
+                    },
+                    {
+                        "index": "88",
+                        "keywords": [
+                            "election anxiety",
+                            "stress",
+                            "polarization"
+                        ],
+                        "bias": "5",
+                        "title": "A divided country agrees: The election is stressing everyone out",
+                        "url": "https://www.npr.org/sections/shots-health-news/2024/10/22/nx-s1-5160011/election-2024-stress-anxiety-polarization"
+                    },
+                    {
+                        "index": "86",
+                        "keywords": [
+                            "politics",
+                            "votes",
+                            "election"
+                        ],
+                        "bias": "5",
+                        "title": "What actually matters this week, according to our politics team",
+                        "url": "https://www.vox.com/2024-elections/382093/harris-trump-abortion-immigration-arab-vote"
+                    },
+                    {
+                        "index": "72",
+                        "keywords": [
+                            "election chaos",
+                            "politics",
+                            "consequences"
+                        ],
+                        "bias": "6",
+                        "title": "A wild election is coming to a close -- and no one is sure how it will end",
+                        "url": "https://www.npr.org/2024/11/04/g-s1-32206/2024-election-overview"
+                    }
+                ]
+            },
+            {
+                "topic": "International Political Influence",
+                "summary": "The articles explore the impact of international politics on domestic landscapes, including insights into foreign influence in elections, as well as humanitarian crises that draw attention to governance and ethical responsibilities.",
+                "news_sources": [
+                    {
+                        "index": "22",
+                        "keywords": [
+                            "Fujimori",
+                            "American politics",
+                            "history"
+                        ],
+                        "bias": "5",
+                        "title": "Americans Need to Know the Name of Alberto Fujimori",
+                        "url": "https://time.com/7027079/history-alberto-fujimori/"
+                    },
+                    {
+                        "index": "69",
+                        "keywords": [
+                            "Moldova",
+                            "Russian influence",
+                            "elections"
+                        ],
+                        "bias": "4",
+                        "title": "Russian cash-for-votes flows into Moldova as nation heads to polls",
+                        "url": "https://www.bbc.com/news/articles/c23kdjxxx1jo"
+                    },
+                    {
+                        "index": "28",
+                        "keywords": [
+                            "politician shot",
+                            "India",
+                            "elections"
+                        ],
+                        "bias": "5",
+                        "title": "Indian politician Baba Siddique shot dead in Mumbai",
+                        "url": "https://www.bbc.com/news/articles/c1k7y4ywx2jo"
+                    },
+                    {
+                        "index": "83",
+                        "keywords": [
+                            "Gaza",
+                            "humanitarian crisis",
+                            "politics"
+                        ],
+                        "bias": "4",
+                        "title": "'Unrwa means everything to us': Gazans fear aid collapse",
+                        "url": "https://www.bbc.com/news/articles/cr4lryx7304o"
+                    },
+                    {
+                        "index": "49",
+                        "keywords": [
+                            "cartoonist",
+                            "political commentary",
+                            "Art"
+                        ],
+                        "bias": "6",
+                        "title": "How the Artist Barry Blitt Turns Politics Into Cartoon Cover Gold",
+                        "url": "https://www.newyorker.com/culture/video-dept/how-the-artist-barry-blitt-turns-politics-into-cartoon-cover-gold"
+                    }
+                ]
+            }
+        ],
+        "urlToImage": ""
+    },
+    "health": {
+        "item": [
+            {
+                "topic": "Healthcare Technology",
+                "summary": "This topic encompasses the challenges and advancements in health technology, particularly focusing on the implications of AI and wearable devices in healthcare.",
+                "news_sources": [
+                    {
+                        "index": "0",
+                        "keywords": [
+                            "OpenAI",
+                            "transcription tool",
+                            "healthcare",
+                            "accuracy",
+                            "AI"
+                        ],
+                        "bias": "4",
+                        "title": "OpenAI\u2019s Transcription Tool Hallucinates. Hospitals Are Using It Anyway",
+                        "url": "https://www.wired.com/story/hospitals-ai-transcription-tools-hallucination/"
+                    },
+                    {
+                        "index": "1",
+                        "keywords": [
+                            "UnitedHealth",
+                            "data breach",
+                            "ransomware",
+                            "health information"
+                        ],
+                        "bias": "6",
+                        "title": "UnitedHealth data breach leaked info on over 100 million people",
+                        "url": "https://www.theverge.com/2024/10/25/24279288/unitedhealth-change-breach-100-million-leak"
+                    },
+                    {
+                        "index": "2",
+                        "keywords": [
+                            "AirPods Pro 2",
+                            "hearing health",
+                            "Apple"
+                        ],
+                        "bias": "4",
+                        "title": "AirPods Pro 2 Hearing Health Features Hands-On",
+                        "url": "https://gizmodo.com/airpods-pro-2-hearing-health-features-hands-on-2000519730"
+                    },
+                    {
+                        "index": "3",
+                        "keywords": [
+                            "AirPods",
+                            "hearing health features",
+                            "update",
+                            "Apple"
+                        ],
+                        "bias": "4",
+                        "title": "The AirPods Pro 2 Finally Receive Its Hearing Health Features",
+                        "url": "https://gizmodo.com/the-airpods-pro-2-finally-receive-its-hearing-health-features-2000516497"
+                    },
+                    {
+                        "index": "4",
+                        "keywords": [
+                            "toilet seat",
+                            "camera",
+                            "digestive health",
+                            "technology"
+                        ],
+                        "bias": "6",
+                        "title": "This Toilet Seat Has a Camera for Taking Pictures of Your Poop",
+                        "url": "https://gizmodo.com/this-toilet-seat-has-a-camera-for-taking-pictures-of-your-poop-2000514322"
+                    },
+                    {
+                        "index": "5",
+                        "keywords": [
+                            "Trump",
+                            "RFK Jr.",
+                            "public health",
+                            "speech"
+                        ],
+                        "bias": "8",
+                        "title": "Trump Promises to Let RFK Jr. \u2018Make America Healthy Again\u2019 in Victory Speech",
+                        "url": "https://gizmodo.com/trump-promises-to-let-rfk-jr-make-america-healthy-again-in-victory-speech-2000521085"
+                    },
+                    {
+                        "index": "6",
+                        "keywords": [
+                            "bacteria",
+                            "Florida",
+                            "hurricanes",
+                            "public health",
+                            "warning"
+                        ],
+                        "bias": "5",
+                        "title": "\u2018Flesh-Eating\u2019 Bacteria Surge in Florida Floodwaters After Back-to-Back Hurricanes",
+                        "url": "https://gizmodo.com/flesh-eating-bacteria-surge-in-florida-floodwaters-after-back-to-back-hurricanes-2000515033"
+                    },
+                    {
+                        "index": "8",
+                        "keywords": [
+                            "mental health",
+                            "GPS",
+                            "art",
+                            "Terry Rosoman"
+                        ],
+                        "bias": "5",
+                        "title": "Man to create giant GPS penis for mental health",
+                        "url": "https://www.bbc.com/news/articles/cdxv252zwzxo"
+                    },
+                    {
+                        "index": "10",
+                        "keywords": [
+                            "sugar",
+                            "health",
+                            "infants",
+                            "diabetes"
+                        ],
+                        "bias": "4",
+                        "title": "The Less Sugar We Get as Babies, the Better Our Health Is Decades Later",
+                        "url": "https://gizmodo.com/the-less-sugar-we-get-as-babies-the-better-our-health-is-decades-later-2000518940"
+                    },
+                    {
+                        "index": "11",
+                        "keywords": [
+                            "mitochondria",
+                            "health",
+                            "paternal",
+                            "impact"
+                        ],
+                        "bias": "5",
+                        "title": "Why the Batteries in Your Body\u2019s Cells Only Come From Mom and Why It Matters",
+                        "url": "https://gizmodo.com/why-the-batteries-in-your-bodys-cells-only-come-from-mom-and-why-it-matters-2000510088"
+                    }
+                ]
+            },
+            {
+                "topic": "Public Health Concerns",
+                "summary": "This topic addresses current public health issues, including the implications of environmental factors, health risks linked to food, and the evolving perspectives on health policies and practices.",
+                "news_sources": [
+                    {
+                        "index": "7",
+                        "keywords": [
+                            "pharmaceutical pollution",
+                            "health",
+                            "Jo Broughton",
+                            "environment"
+                        ],
+                        "bias": "5",
+                        "title": "'Drug pollution in water poses risk to my health'",
+                        "url": "https://www.bbc.com/news/articles/cq5en8zw1l4o"
+                    },
+                    {
+                        "index": "9",
+                        "keywords": [
+                            "vapes",
+                            "ban",
+                            "government",
+                            "children",
+                            "health"
+                        ],
+                        "bias": "6",
+                        "title": "Disposable vapes to be banned from June, says government",
+                        "url": "https://www.bbc.com/news/articles/cd7n3zyp114o"
+                    },
+                    {
+                        "index": "12",
+                        "keywords": [
+                            "Galaxy Watch",
+                            "price",
+                            "health tracking"
+                        ],
+                        "bias": "4",
+                        "title": "The Galaxy Watch 6 Is at a Record-Breaking Low Price, Skip Black Friday Crowds",
+                        "url": "https://gizmodo.com/the-galaxy-watch-6-is-at-a-record-breaking-low-price-skip-black-friday-crowds-2000516531"
+                    },
+                    {
+                        "index": "13",
+                        "keywords": [
+                            "NHS",
+                            "patient safety",
+                            "regulation",
+                            "overhaul"
+                        ],
+                        "bias": "5",
+                        "title": "NHS patient-safety system to be overhauled",
+                        "url": "https://www.bbc.com/news/articles/c5y0303nynyo"
+                    },
+                    {
+                        "index": "14",
+                        "keywords": [
+                            "rescue",
+                            "health ministry",
+                            "Lebanon",
+                            "accident"
+                        ],
+                        "bias": "6",
+                        "title": "Rescue workers search for signs of missing under rubble",
+                        "url": "https://www.bbc.com/news/articles/cwyl2x3ye8no"
+                    },
+                    {
+                        "index": "15",
+                        "keywords": [
+                            "weight-loss jabs",
+                            "unemployed",
+                            "health secretary"
+                        ],
+                        "bias": "4",
+                        "title": "Jobless could get weight loss jabs to return to work",
+                        "url": "https://www.bbc.com/news/articles/cjd54zd0ezjo"
+                    },
+                    {
+                        "index": "16",
+                        "keywords": [
+                            "Amazon",
+                            "air purifiers",
+                            "health",
+                            "discount"
+                        ],
+                        "bias": "5",
+                        "title": "Amazon Cares About Your Health, It\u2019s Selling Blueair Air Purifiers at 46% Off",
+                        "url": "https://gizmodo.com/amazon-cares-about-your-health-its-selling-blueair-air-purifiers-at-46-off-2000509289"
+                    },
+                    {
+                        "index": "19",
+                        "keywords": [
+                            "HSA",
+                            "health savings account",
+                            "retirement",
+                            "eligibility"
+                        ],
+                        "bias": "5",
+                        "title": "Millennials on track to retire early are maxing out HSAs to supplement their savings. Here's who is eligible for this account and how to use it to grow your money.",
+                        "url": "https://www.businessinsider.com/how-to-use-health-savings-account-retirement-tool-investing-wealth-2024-10"
+                    },
+                    {
+                        "index": "20",
+                        "keywords": [
+                            "Oura Ring",
+                            "health tracker",
+                            "wearable",
+                            "discount"
+                        ],
+                        "bias": "4",
+                        "title": "Smartwatch Out and Oura Ring In for $100 Off at Amazon",
+                        "url": "https://gizmodo.com/smartwatch-out-and-oura-ring-in-for-100-off-at-amazon-2000513699"
+                    },
+                    {
+                        "index": "23",
+                        "keywords": [
+                            "Fitbit",
+                            "Gemini",
+                            "lab",
+                            "personalized health"
+                        ],
+                        "bias": "5",
+                        "title": "Fitbit Labs is here with an 'Insight Explorer' test thanks to Google's Gemini",
+                        "url": "https://www.androidcentral.com/apps-software/fitbit-labs-insight-explorer-test-gemini-start"
+                    }
+                ]
+            },
+            {
+                "topic": "Health Innovations and Studies",
+                "summary": "This topic highlights recent health innovations, research studies, and technological advancements that impact health tracking, aging, and diet.",
+                "news_sources": [
+                    {
+                        "index": "22",
+                        "keywords": [
+                            "sleep tracking",
+                            "mental health",
+                            "stress"
+                        ],
+                        "bias": "4",
+                        "title": "Sleep Tracking Is Bad, Actually, for My Mental Health",
+                        "url": "https://www.cnet.com/tech/mobile/sleep-tracking-is-bad-actually-for-my-mental-health/"
+                    },
+                    {
+                        "index": "24",
+                        "keywords": [
+                            "AirTags",
+                            "pets",
+                            "health hazard",
+                            "tracking"
+                        ],
+                        "bias": "5",
+                        "title": "Experts Warn Against Using AirTags to Track Your Pets, Here's Why",
+                        "url": "https://www.cnet.com/home/kitchen-and-household/experts-warn-against-using-airtags-to-track-your-pets-heres-why/"
+                    },
+                    {
+                        "index": "25",
+                        "keywords": [
+                            "balance",
+                            "aging",
+                            "health marker"
+                        ],
+                        "bias": "4",
+                        "title": "Want to Know How Well You\u2019re Aging? Try Standing on One Leg",
+                        "url": "https://gizmodo.com/want-to-know-how-well-youre-aging-try-standing-on-one-leg-2000516051"
+                    },
+                    {
+                        "index": "26",
+                        "keywords": [
+                            "Samsung Health",
+                            "medical records",
+                            "features"
+                        ],
+                        "bias": "5",
+                        "title": "New Samsung Health features make it easier to stay on top of your wellness",
+                        "url": "https://www.androidcentral.com/apps-software/new-samsung-health-features-medication-tracking-meal-logging"
+                    },
+                    {
+                        "index": "27",
+                        "keywords": [
+                            "mammogram",
+                            "cardiovascular health",
+                            "calcification"
+                        ],
+                        "bias": "5",
+                        "title": "What your mammogram can tell you about your cardiovascular health",
+                        "url": "https://www.npr.org/sections/shots-health-news/2024/10/21/nx-s1-5159950/mammogram-cardiovascular-risk-breast-arterial-calcification"
+                    },
+                    {
+                        "index": "28",
+                        "keywords": [
+                            "standing desks",
+                            "health risks",
+                            "study"
+                        ],
+                        "bias": "5",
+                        "title": "Are Standing Desks Actually Bad For Your Health?",
+                        "url": "https://science.slashdot.org/story/24/10/16/2137253/are-standing-desks-actually-bad-for-your-health"
+                    },
+                    {
+                        "index": "29",
+                        "keywords": [
+                            "apple cider vinegar",
+                            "health benefits",
+                            "nutrition"
+                        ],
+                        "bias": "4",
+                        "title": "A Kitchen Essential Turned Wellness Hack: How to Use Apple Cider Vinegar for Your Health",
+                        "url": "https://www.cnet.com/health/nutrition/how-to-use-apple-cider-vinegar-for-your-health/"
+                    },
+                    {
+                        "index": "30",
+                        "keywords": [
+                            "climate crisis",
+                            "health",
+                            "heat-related deaths"
+                        ],
+                        "bias": "4",
+                        "title": "Record Levels of Heat-Related Deaths in 2023 Due To Climate Crisis, Report Finds",
+                        "url": "https://news.slashdot.org/story/24/10/31/0114217/record-levels-of-heat-related-deaths-in-2023-due-to-climate-crisis-report-finds"
+                    },
+                    {
+                        "index": "81",
+                        "keywords": [
+                            "illegal meat imports",
+                            "government",
+                            "health crisis"
+                        ],
+                        "bias": "6",
+                        "title": "Action demanded over surge in illegal meat imports",
+                        "url": "https://www.bbc.com/news/articles/cqxwrer12xno"
+                    },
+                    {
+                        "index": "82",
+                        "keywords": [
+                            "human lifespan",
+                            "life expectancy",
+                            "research"
+                        ],
+                        "bias": "5",
+                        "title": "Human Lifespan May Have a Hard Ceiling, Research Suggests",
+                        "url": "https://gizmodo.com/human-lifespan-may-have-a-hard-ceiling-research-suggests-2000507719"
+                    }
+                ]
+            },
+            {
+                "topic": "Mental Health Awareness",
+                "summary": "This topic emphasizes the significance of mental health awareness, discussing barriers to care, the impact of social media, and innovative approaches to improving mental wellbeing.",
+                "news_sources": [
+                    {
+                        "index": "51",
+                        "keywords": [
+                            "mental health",
+                            "awareness",
+                            "tips"
+                        ],
+                        "bias": "4",
+                        "title": "Mental Health Looks Different for Everyone. Top 4 Tips for How to Celebrate Yours Today",
+                        "url": "https://www.cnet.com/health/mental/mental-health-looks-different-for-everyone-top-4-tips-for-how-to-celebrate-yours-today/"
+                    },
+                    {
+                        "index": "74",
+                        "keywords": [
+                            "LGBTQ+",
+                            "mental health issues",
+                            "barriers to care"
+                        ],
+                        "bias": "5",
+                        "title": "LGBTQ+ women face disproportionate rates of mental health issues and barriers to care",
+                        "url": "https://www.npr.org/sections/shots-health-news/2024/10/08/nx-s1-5131619/lgbtq-women-mental-health-care"
+                    },
+                    {
+                        "index": "56",
+                        "keywords": [
+                            "TikTok",
+                            "lawsuit",
+                            "mental health",
+                            "kids"
+                        ],
+                        "bias": "5",
+                        "title": "TikTok knew its algorithm harmed kids, accidentally revealed internal documents show",
+                        "url": "https://www.businessinsider.com/tiktok-lawsuit-algorithm-children-internal-documents-revealed-2024-10"
+                    },
+                    {
+                        "index": "67",
+                        "keywords": [
+                            "lawsuits",
+                            "TikTok",
+                            "youth mental health"
+                        ],
+                        "bias": "5",
+                        "title": "States Sue TikTok Over Children\u2019s Mental Health",
+                        "url": "https://time.com/7071829/states-sue-tiktok-children-mental-health-addiction/"
+                    },
+                    {
+                        "index": "63",
+                        "keywords": [
+                            "testosterone therapy",
+                            "young men",
+                            "health clinics"
+                        ],
+                        "bias": "6",
+                        "title": "Young men are getting testosterone boosts to feel stronger, sharper, and anxiety-free",
+                        "url": "https://www.businessinsider.com/young-men-testosterone-therapy-masculine-ideal-2024-10"
+                    },
+                    {
+                        "index": "48",
+                        "keywords": [
+                            "Ozempic",
+                            "weight-loss",
+                            "lifesaving",
+                            "study"
+                        ],
+                        "bias": "6",
+                        "title": "Ozempic Could Be Lifesaving for Thousands of Americans a Year, Study Finds",
+                        "url": "https://gizmodo.com/ozempic-could-be-lifesaving-for-thousands-of-americans-a-year-study-finds-2000513535"
+                    },
+                    {
+                        "index": "52",
+                        "keywords": [
+                            "fitness apps",
+                            "moving",
+                            "healthy habits"
+                        ],
+                        "bias": "4",
+                        "title": "Get Yourself an Alo Moves Membership for Just $80 and Take Control of Your Health",
+                        "url": "https://www.cnet.com/deals/get-yourself-an-alo-moves-membership-for-less-just-80-and-take-control-of-your-health/"
+                    }
+                ]
+            },
+            {
+                "topic": "Food Safety",
+                "summary": "This topic addresses critical food safety concerns, highlighting outbreaks linked to popular fast food chains and the broader implications on public health.",
+                "news_sources": [
+                    {
+                        "index": "49",
+                        "keywords": [
+                            "E. coli",
+                            "McDonald's",
+                            "outbreak"
+                        ],
+                        "bias": "6",
+                        "title": "1 dead, dozens sickened in E. coli outbreak linked to McDonald's Quarter Pounders",
+                        "url": "https://www.npr.org/2024/10/22/nx-s1-5161590/mcdonalds-ecoli-quarter-pounders-cdc"
+                    },
+                    {
+                        "index": "58",
+                        "keywords": [
+                            "McDonald's",
+                            "sales drop",
+                            "outbreak",
+                            "public health"
+                        ],
+                        "bias": "5",
+                        "title": "McDonald's says store visits and sales dropped in wake of E. coli outbreak",
+                        "url": "https://www.businessinsider.com/mcdonalds-store-visits-sales-drop-e-coli-outbreak-2024-10"
+                    }
+                ]
+            }
+        ],
+        "urlToImage": ""
+    },
+    "science": {
+        "item": [
+            {
+                "topic": "Medical Oddities and Innovations",
+                "summary": "This topic covers unusual medical discoveries and advancements in health and science, highlighting rare conditions and innovative medical practices.",
+                "news_sources": [
+                    {
+                        "index": "0",
+                        "keywords": [
+                            "three penises",
+                            "medical wonder",
+                            "triphallia"
+                        ],
+                        "bias": "4",
+                        "title": "Doctors Discover Man With Three Penises",
+                        "url": "https://gizmodo.com/doctors-discover-man-with-three-penises-2000512478"
+                    },
+                    {
+                        "index": "21",
+                        "keywords": [
+                            "Donald Trump",
+                            "race science",
+                            "controversial statements"
+                        ],
+                        "bias": "8",
+                        "title": "Donald Trump Flirts With Race Science",
+                        "url": "https://www.theatlantic.com/technology/archive/2024/10/donald-trump-migrants-race-science/680187/"
+                    },
+                    {
+                        "index": "22",
+                        "keywords": [
+                            "psychedelics",
+                            "medicine",
+                            "evidence"
+                        ],
+                        "bias": "5",
+                        "title": "Psychedelics Have a Shaky-Science Problem",
+                        "url": "https://www.theatlantic.com/ideas/archive/2024/10/psychedelics-medicine-science/680286/"
+                    },
+                    {
+                        "index": "45",
+                        "keywords": [
+                            "weight-loss drugs",
+                            "teen obesity",
+                            "health consequences"
+                        ],
+                        "bias": "5",
+                        "title": "The Unsettled Science behind Weight-Loss Drugs for Teens",
+                        "url": "https://www.scientificamerican.com/article/the-unsettled-science-behind-weight-loss-drugs-for-teens/"
+                    },
+                    {
+                        "index": "78",
+                        "keywords": [
+                            "COVID vaccine tech",
+                            "C. diff",
+                            "bacteria"
+                        ],
+                        "bias": "4",
+                        "title": "Covid Vaccine Tech Is Being Used to Fight a Nasty, Diarrhea-Causing Bacteria",
+                        "url": "https://gizmodo.com/covid-vaccine-tech-is-being-used-to-fight-a-nasty-diarrhea-causing-bacteria-2000514541"
+                    }
+                ]
+            },
+            {
+                "topic": "Space Exploration",
+                "summary": "This category focuses on NASA's recent missions, developments in space technology, and the ongoing exploration of our solar system.",
+                "news_sources": [
+                    {
+                        "index": "5",
+                        "keywords": [
+                            "NASA",
+                            "space observatories",
+                            "2032 launch"
+                        ],
+                        "bias": "4",
+                        "title": "One of These Two Space Observatories Could Be NASA\u2019s Next Big Thing",
+                        "url": "https://gizmodo.com/one-of-these-two-space-observatories-could-be-nasas-next-big-thing-2000509113"
+                    },
+                    {
+                        "index": "12",
+                        "keywords": [
+                            "NASA",
+                            "Crew-8 mission",
+                            "space capsule"
+                        ],
+                        "bias": "4",
+                        "title": "Ketchup in space: 'You gotta squirt it out'",
+                        "url": "https://www.bbc.com/news/videos/cn013z2n4n6o"
+                    },
+                    {
+                        "index": "10",
+                        "keywords": [
+                            "NASA",
+                            "Mars Sample Return",
+                            "Rocket Lab"
+                        ],
+                        "bias": "4",
+                        "title": "Can Rocket Lab Save NASA\u2019s Mission to Bring Pieces of Mars to Earth?",
+                        "url": "https://gizmodo.com/can-rocket-lab-save-nasas-mission-to-bring-pieces-of-mars-to-earth-2000508381"
+                    },
+                    {
+                        "index": "20",
+                        "keywords": [
+                            "NASA",
+                            "DART mission",
+                            "Hera probe"
+                        ],
+                        "bias": "4",
+                        "title": "NASA Punched an Asteroid in 2022. Another Probe Is Now on Its Way to the Wreckage",
+                        "url": "https://gizmodo.com/nasa-punched-an-asteroid-in-2022-another-probe-is-now-on-its-way-to-the-wreckage-2000505950"
+                    },
+                    {
+                        "index": "68",
+                        "keywords": [
+                            "Election Day",
+                            "vote counting",
+                            "political science"
+                        ],
+                        "bias": "5",
+                        "title": "It\u2019s Election Week. Brace Yourselves",
+                        "url": "https://www.wired.com/story/election-week-brace-yourselves/"
+                    }
+                ]
+            },
+            {
+                "topic": "Science and Technology",
+                "summary": "Exploration of groundbreaking discoveries and advancements in various scientific fields, including genomics, AI, and environmental science.",
+                "news_sources": [
+                    {
+                        "index": "3",
+                        "keywords": [
+                            "Nobel Prize",
+                            "machine learning",
+                            "AI"
+                        ],
+                        "bias": "4",
+                        "title": "Machine learning pioneers, including the 'Godfather of AI,' are awarded the Nobel Prize in Physics",
+                        "url": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_6520a371-80be-4f58-afc3-cdc8b7ee93c5"
+                    },
+                    {
+                        "index": "18",
+                        "keywords": [
+                            "de-extinction",
+                            "Tasmanian tiger",
+                            "biology"
+                        ],
+                        "bias": "4",
+                        "title": "\u2018De-Extinction\u2019 Company Says It\u2019s Very, Very Close to a Complete Tasmanian Tiger Genome",
+                        "url": "https://gizmodo.com/de-extinction-company-says-its-very-very-close-to-a-complete-tasmanian-tiger-genome-2000513249"
+                    },
+                    {
+                        "index": "32",
+                        "keywords": [
+                            "Apple Watch",
+                            "blood pressure",
+                            "health tech"
+                        ],
+                        "bias": "4",
+                        "title": "The science behind on-the-wrist blood pressure tracking",
+                        "url": "https://empirical.health/blog/apple-watch-blood-pressure/"
+                    },
+                    {
+                        "index": "38",
+                        "keywords": [
+                            "China",
+                            "crop mutations",
+                            "space satellite"
+                        ],
+                        "bias": "4",
+                        "title": "China\u2019s Reusable Satellite Returns to Earth After Experimenting With Crop Mutations in Space",
+                        "url": "https://gizmodo.com/chinas-reusable-satellite-returns-to-earth-after-experimenting-with-crop-mutations-in-space-2000511032"
+                    },
+                    {
+                        "index": "56",
+                        "keywords": [
+                            "science photo book",
+                            "colors",
+                            "universe"
+                        ],
+                        "bias": "4",
+                        "title": "The Universe in 100 Colors Provides a Stunning Tour through Science",
+                        "url": "https://www.scientificamerican.com/article/the-universe-in-100-colors-provides-a-stunning-tour-through-science/"
+                    }
+                ]
+            },
+            {
+                "topic": "Literature and Media",
+                "summary": "A glimpse into how literature, particularly in fantasy and science fiction, influences culture and vice versa.",
+                "news_sources": [
+                    {
+                        "index": "1",
+                        "keywords": [
+                            "fantasy genre",
+                            "Judy-Lynn del Rey",
+                            "publishing"
+                        ],
+                        "bias": "4",
+                        "title": "The Woman Who Revolutionized the Fantasy Genre Is Finally Getting Her Due",
+                        "url": "https://gizmodo.com/the-woman-who-revolutionized-the-fantasy-genre-is-finally-getting-her-due-2000511317"
+                    },
+                    {
+                        "index": "19",
+                        "keywords": [
+                            "Interstellar",
+                            "Chris Nolan",
+                            "film anniversary"
+                        ],
+                        "bias": "4",
+                        "title": "The Final Plans for the 10th Anniversary of Christopher Nolan\u2019s Interstellar Are Here",
+                        "url": "https://gizmodo.com/interstellar-rerelease-anniversary-4k-imax-chris-nolan-2000509278"
+                    },
+                    {
+                        "index": "44",
+                        "keywords": [
+                            "Halloween",
+                            "sci-fi movies",
+                            "streaming"
+                        ],
+                        "bias": "4",
+                        "title": "5 great sci-fi movies to stream this Halloween",
+                        "url": "https://www.digitaltrends.com/movies/5-best-sci-fi-movies-halloween-2024/"
+                    },
+                    {
+                        "index": "66",
+                        "keywords": [
+                            "Marie Curie",
+                            "women in science",
+                            "history"
+                        ],
+                        "bias": "4",
+                        "title": "How Marie Curie Helped a Generation of Women Break into Science",
+                        "url": "https://www.scientificamerican.com/article/how-marie-curie-helped-a-generation-of-women-break-into-science/"
+                    },
+                    {
+                        "index": "70",
+                        "keywords": [
+                            "prehistoric",
+                            "Car-sized millipede",
+                            "research"
+                        ],
+                        "bias": "4",
+                        "title": "Scientists Reconstruct Terrifying Face of Car-Sized Millipede That Roamed Prehistoric Earth",
+                        "url": "https://gizmodo.com/scientists-reconstruct-terrifying-face-of-car-sized-millipede-that-roamed-prehistoric-earth-2000510415"
+                    }
+                ]
+            },
+            {
+                "topic": "Current Events and Politics",
+                "summary": "This section examines contemporary political issues, societal dynamics, and science's intersection with modern governance.",
+                "news_sources": [
+                    {
+                        "index": "4",
+                        "keywords": [
+                            "law",
+                            "scientific changes",
+                            "justice system"
+                        ],
+                        "bias": "5",
+                        "title": "'The Law Must Respond When Science Changes'",
+                        "url": "https://yro.slashdot.org/story/24/11/04/168249/the-law-must-respond-when-science-changes"
+                    },
+                    {
+                        "index": "30",
+                        "keywords": [
+                            "England rugby",
+                            "RFU deals",
+                            "Steve Borthwick"
+                        ],
+                        "bias": "4",
+                        "title": "Borthwick names 17 England players given RFU deals",
+                        "url": "https://www.bbc.com/sport/rugby-union/articles/c4gz47m2918o"
+                    },
+                    {
+                        "index": "64",
+                        "keywords": [
+                            "UK budget",
+                            "working people",
+                            "tax policies"
+                        ],
+                        "bias": "5",
+                        "title": "No tax rises in payslips for 'working people', vows minister",
+                        "url": "https://www.bbc.com/news/articles/c789915n5elo"
+                    },
+                    {
+                        "index": "63",
+                        "keywords": [
+                            "David Lammy",
+                            "reparations",
+                            "slavery"
+                        ],
+                        "bias": "5",
+                        "title": "Slavery reparations not about transfer of cash, says Lammy",
+                        "url": "https://www.bbc.com/news/articles/cvgkpy4634go"
+                    },
+                    {
+                        "index": "68",
+                        "keywords": [
+                            "election week",
+                            "politics",
+                            "future predictions"
+                        ],
+                        "bias": "5",
+                        "title": "It\u2019s Election Week. Brace Yourselves",
+                        "url": "https://www.wired.com/story/election-week-brace-yourselves/"
+                    }
+                ]
+            }
+        ],
+        "urlToImage": ""
+    },
+    "sports": {
+        "item": [
+            {
+                "topic": "Basketball News",
+                "summary": "This topic covers a variety of recent developments in basketball, including professional, collegiate, and women's leagues, highlighting key events, player movements, and achievements.",
+                "news_sources": [
+                    {
+                        "index": "0",
+                        "keywords": [
+                            "NBA",
+                            "streaming",
+                            "how to watch",
+                            "2024"
+                        ],
+                        "bias": "4",
+                        "title": "NBA Streaming 2024: How to Watch, Livestream Basketball This Season",
+                        "url": "https://www.cnet.com/tech/services-and-software/nba-streaming-2024-how-to-watch-livestream-basketball-this-season/"
+                    },
+                    {
+                        "index": "1",
+                        "keywords": [
+                            "gambling",
+                            "soccer matches",
+                            "1xbet"
+                        ],
+                        "bias": "6",
+                        "title": "Surreal Gambling Site Sees Users Bet on Thousands of Dimly Lit and Short-Lived Soccer Matches Every Day",
+                        "url": "https://gizmodo.com/surreal-gambling-site-sees-users-bet-on-thousands-of-dimly-lit-and-short-lived-soccer-matches-every-day-2000514445"
+                    },
+                    {
+                        "index": "2",
+                        "keywords": [
+                            "WNBA",
+                            "New York Liberty",
+                            "championship"
+                        ],
+                        "bias": "3",
+                        "title": "The Liberty\u2019s Intense, First WNBA Title Is a Boon to New York\u2014and Women\u2019s Basketball",
+                        "url": "https://time.com/7095415/new-york-liberty-wnba-finals-womens-basketball/"
+                    },
+                    {
+                        "index": "3",
+                        "keywords": [
+                            "NASA",
+                            "Europa Clipper",
+                            "life exploration"
+                        ],
+                        "bias": "5",
+                        "title": "The Hunt for Life on Europa Is About to Kick Up a Gear",
+                        "url": "https://www.wired.com/story/europa-clipper-mission-nasa-jupiter-moon-exploration-signs-life/"
+                    },
+                    {
+                        "index": "4",
+                        "keywords": [
+                            "Basketball Hall of Fame",
+                            "2024",
+                            "ceremony highlights"
+                        ],
+                        "bias": "4",
+                        "title": "Highlights from the 2024 Basketball Hall of Fame ceremony",
+                        "url": "https://www.espn.com/nba/story/_/id/41782270/naismith-memorial-basketball-hall-fame-ceremony-2024-top-moments"
+                    },
+                    {
+                        "index": "5",
+                        "keywords": [
+                            "college basketball",
+                            "Duke",
+                            "UConn",
+                            "title odds"
+                        ],
+                        "bias": "5",
+                        "title": "Duke, UConn, KU top men's basketball title odds",
+                        "url": "https://www.espn.com/espn/betting/story/_/id/42191396/duke-uconn-kansas-split-men-college-hoops-title-faves"
+                    },
+                    {
+                        "index": "6",
+                        "keywords": [
+                            "Michael Jordan",
+                            "private jet",
+                            "Elon Musk",
+                            "Jeff Bezos"
+                        ],
+                        "bias": "5",
+                        "title": "Michael Jordan Buys A New Private Jet That Is Also Owned By Tech Billionaires Elon Musk And Jeff Bezos",
+                        "url": "https://finance.yahoo.com/news/michael-jordan-buys-private-jet-171529030.html"
+                    },
+                    {
+                        "index": "8",
+                        "keywords": [
+                            "Nike",
+                            "JuJu Watkins",
+                            "endorsement deal"
+                        ],
+                        "bias": "5",
+                        "title": "Sources: USC's Watkins gets lucrative Nike deal",
+                        "url": "https://www.espn.com/womens-college-basketball/story/_/id/41684352/sources-usc-juju-watkins-nike-reach-lucrative-extension"
+                    },
+                    {
+                        "index": "12",
+                        "keywords": [
+                            "LeBron James",
+                            "Bronny",
+                            "NBA history"
+                        ],
+                        "bias": "5",
+                        "title": "LeBron James, son Bronny play 1st game together: What to know about the James kids",
+                        "url": "https://abcnews.go.com/GMA/Family/lebron-james-kids/story?id=111513026"
+                    },
+                    {
+                        "index": "30",
+                        "keywords": [
+                            "New York Liberty",
+                            "WNBA",
+                            "celebration",
+                            "parade"
+                        ],
+                        "bias": "4",
+                        "title": "WNBA champions the New York Liberty transformed the Financial District into a party to celebrate their record-breaking season",
+                        "url": "https://www.businessinsider.com/new-york-liberty-wnba-championship-parade-photos-2024-10"
+                    }
+                ]
+            },
+            {
+                "topic": "Player Movements and Anniversary Events",
+                "summary": "This topic includes player contract updates, trades, retirements, and ceremonies commemorating significant achievements in basketball history.",
+                "news_sources": [
+                    {
+                        "index": "21",
+                        "keywords": [
+                            "Danny Green",
+                            "retirement",
+                            "NBA"
+                        ],
+                        "bias": "5",
+                        "title": "Green, three-time champ with 3 teams, retires",
+                        "url": "https://www.espn.com/nba/story/_/id/41714503/danny-green-retires-nba-won-title-3-different-teams"
+                    },
+                    {
+                        "index": "37",
+                        "keywords": [
+                            "investing",
+                            "sports",
+                            "Morgan Stanley"
+                        ],
+                        "bias": "6",
+                        "title": "Wealthy sports fans can now put money into investments tied to their favorite leagues",
+                        "url": "https://www.businessinsider.com/sports-investing-indexes-leagues-high-net-worth-morgan-stanley-2024-10"
+                    },
+                    {
+                        "index": "41",
+                        "keywords": [
+                            "NBA",
+                            "streaming",
+                            "2024",
+                            "how to watch"
+                        ],
+                        "bias": "5",
+                        "title": "NBA Streaming 2024: How to Watch, Livestream Basketball Tonight and This Season",
+                        "url": "https://www.cnet.com/tech/services-and-software/nba-streaming-2024-how-to-watch-livestream-basketball-tonight-and-this-season/"
+                    },
+                    {
+                        "index": "47",
+                        "keywords": [
+                            "Boston Celtics",
+                            "Banner 18",
+                            "celebration"
+                        ],
+                        "bias": "5",
+                        "title": "Celtics raise banner No. 18, say 'let's do it again'",
+                        "url": "https://www.espn.com/nba/story/_/id/41949768/boston-celtics-raise-championship-banner-18-franchise-legends-hand"
+                    },
+                    {
+                        "index": "57",
+                        "keywords": [
+                            "Knicks",
+                            "Karl-Anthony Towns",
+                            "trade"
+                        ],
+                        "bias": "6",
+                        "title": "A KAT and $300K: How the Knicks worked the system to pull off the preseason's biggest trade",
+                        "url": "https://www.espn.com/nba/story/_/id/41726118/all-little-moves-knicks-made-get-karl-anthony-towns-new-york"
+                    },
+                    {
+                        "index": "86",
+                        "keywords": [
+                            "Kelsey Plum",
+                            "jersey retirement"
+                        ],
+                        "bias": "4",
+                        "title": "WNBA's Kelsey Plum to Have Washington WCBB Jersey Retired; 1st in Program History",
+                        "url": "https://bleacherreport.com/articles/10141851-wnbas-kelsey-plum-to-have-washington-wcbb-jersey-retired-1st-in-program-history"
+                    },
+                    {
+                        "index": "89",
+                        "keywords": [
+                            "Dwyane Wade",
+                            "statue",
+                            "backlash"
+                        ],
+                        "bias": "4",
+                        "title": "The Worst Statue in the History of Sports",
+                        "url": "https://www.theatlantic.com/technology/archive/2024/10/dwyane-wade-statue-close-reading/680444/"
+                    }
+                ]
+            },
+            {
+                "topic": "NCAA Basketball and Recruiting",
+                "summary": "This section focuses on NCAA basketball news including team rankings, player commitments, and the impact of realignment on collegiate leagues.",
+                "news_sources": [
+                    {
+                        "index": "11",
+                        "keywords": [
+                            "women's basketball",
+                            "SEC",
+                            "realignment"
+                        ],
+                        "bias": "5",
+                        "title": "Conference realignment cheat sheet: How it impacts, and why the SEC is stronger than ever",
+                        "url": "https://www.espn.com/womens-college-basketball/story/_/id/42046029/womens-college-basketball-2024-25-best-conference-realignment-sec-big-ten-acc-big-12"
+                    },
+                    {
+                        "index": "25",
+                        "keywords": [
+                            "5-star recruit",
+                            "Duke",
+                            "commitment"
+                        ],
+                        "bias": "5",
+                        "title": "Ex-Microsoft CEO Steve Ballmer can't stop talking about the bathrooms at his new $2 billion sports stadium",
+                        "url": "https://www.businessinsider.com/steve-ballmer-clippers-intuit-dome-arena-bathrooms-2024-10"
+                    },
+                    {
+                        "index": "61",
+                        "keywords": [
+                            "JuJu Watkins",
+                            "Nike",
+                            "contract"
+                        ],
+                        "bias": "5",
+                        "title": "Report: JuJu Watkins, Nike Agree to New Contract; Among Biggest in Women's Basketball",
+                        "url": "https://bleacherreport.com/articles/10138627-report-juju-watkins-nike-agree-to-new-contract-among-biggest-in-womens-basketball"
+                    },
+                    {
+                        "index": "73",
+                        "keywords": [
+                            "Paige Bueckers",
+                            "UConn",
+                            "national championship"
+                        ],
+                        "bias": "5",
+                        "title": "Paige Bueckers: It's 'National Championship or Bust' for UConn in 2024-25 WCBB Season",
+                        "url": "https://bleacherreport.com/articles/10140641-paige-bueckers-its-national-championship-or-bust-for-uconn-in-2024-25-wcbb-season"
+                    },
+                    {
+                        "index": "74",
+                        "keywords": [
+                            "Virginia Tech",
+                            "Hysier Miller",
+                            "dismissal"
+                        ],
+                        "bias": "6",
+                        "title": "Va Tech PG Hysier Miller Dismissed Amid Reported Temple Gambling Probe",
+                        "url": "https://bleacherreport.com/articles/10140653-va-tech-pg-hysier-miller-dismissed-amid-reported-temple-gambling-probe"
+                    },
+                    {
+                        "index": "84",
+                        "keywords": [
+                            "Paige Bueckers",
+                            "JuJu Watkins",
+                            "All-America Team"
+                        ],
+                        "bias": "5",
+                        "title": "Paige Bueckers, JuJu Watkins Headline 2024-25 AP Women's Preseason All-America Team",
+                        "url": "https://bleacherreport.com/articles/10140439-paige-bueckers-juju-watkins-headline-2024-25-ap-womens-preseason-all-america-team"
+                    }
+                ]
+            }
+        ],
+        "urlToImage": ""
+    },
+    "technology": {
+        "item": [
+            {
+                "topic": "Technology Innovations",
+                "summary": "This topic covers a variety of technological advancements and product launches, including innovations in audio devices, artificial intelligence, and home automation systems.",
+                "news_sources": [
+                    {
+                        "index": "1",
+                        "keywords": [
+                            "Hall effect sensors",
+                            "technology",
+                            "keyboard",
+                            "game controller"
+                        ],
+                        "bias": "4",
+                        "title": "What Are Hall Effect Sensors and How Do They Work? (2024)",
+                        "url": "https://www.wired.com/story/what-is-hall-effect/"
+                    },
+                    {
+                        "index": "2",
+                        "keywords": [
+                            "Sonos",
+                            "Arc Ultra",
+                            "soundbar",
+                            "audio technology"
+                        ],
+                        "bias": "4",
+                        "title": "Sonos announces \u2018breakthrough\u2019 Arc Ultra soundbar and Sub 4",
+                        "url": "https://www.theverge.com/2024/10/15/24270677/sonos-arc-ultra-soundbar-sub-4-announced"
+                    },
+                    {
+                        "index": "3",
+                        "keywords": [
+                            "Roborock",
+                            "robot vacuum",
+                            "technology",
+                            "discount"
+                        ],
+                        "bias": "4",
+                        "title": "Back to Its Prime Day Price (59% Off), The Roborock Q7 Max+ is so Subtle That You\u2019ll Hardly Notice it\u2019s Working",
+                        "url": "https://gizmodo.com/back-to-its-prime-day-price-59-off-the-roborock-q7-max-is-so-subtle-that-youll-hardly-notice-its-working-2000511818"
+                    },
+                    {
+                        "index": "7",
+                        "keywords": [
+                            "Roborock",
+                            "space",
+                            "vacuum",
+                            "innovation"
+                        ],
+                        "bias": "4",
+                        "title": "First Vacuum in Space: Where Roborock\u2019s Vision Meets the Cosmos",
+                        "url": "https://gizmodo.com/first-vacuum-in-space-where-roborocks-vision-meets-the-cosmos-2000510102"
+                    },
+                    {
+                        "index": "9",
+                        "keywords": [
+                            "passkey technology",
+                            "online security",
+                            "FIDO Alliance"
+                        ],
+                        "bias": "4",
+                        "title": "The Crusade to Replace Passwords With Passkeys Just Got More Fuel",
+                        "url": "https://gizmodo.com/an-industry-group-wants-you-to-replace-your-passwords-with-passkeys-2000512254"
+                    },
+                    {
+                        "index": "10",
+                        "keywords": [
+                            "Google",
+                            "court battle",
+                            "technology",
+                            "lawsuit"
+                        ],
+                        "bias": "4",
+                        "title": "'We took on Google and they were forced to pay out \u00a32bn'",
+                        "url": "https://www.bbc.com/news/articles/cjr431lr72jo"
+                    },
+                    {
+                        "index": "11",
+                        "keywords": [
+                            "Tesla",
+                            "self-driving",
+                            "robotaxi",
+                            "technology"
+                        ],
+                        "bias": "6",
+                        "title": "Musk promises self-driving Tesla taxis, but are they safe?",
+                        "url": "https://www.bbc.com/news/videos/c20p2gp4npeo"
+                    },
+                    {
+                        "index": "12",
+                        "keywords": [
+                            "Royal Navy",
+                            "quantum sensing",
+                            "technology",
+                            "trial"
+                        ],
+                        "bias": "4",
+                        "title": "Royal Navy Successfully Tests Quantum-Sensing Technology",
+                        "url": "https://tech.slashdot.org/story/24/11/01/2117223/royal-navy-successfully-tests-quantum-sensing-technology"
+                    },
+                    {
+                        "index": "14",
+                        "keywords": [
+                            "Trump",
+                            "AI",
+                            "safety",
+                            "regulation"
+                        ],
+                        "bias": "3",
+                        "title": "How a Trump Win Could Unleash Dangerous AI",
+                        "url": "https://www.wired.com/story/donald-trump-ai-safety-regulation/"
+                    },
+                    {
+                        "index": "18",
+                        "keywords": [
+                            "Honda",
+                            "Zero",
+                            "EV",
+                            "technology"
+                        ],
+                        "bias": "4",
+                        "title": "Honda Zero first drive: an EV without the baggage",
+                        "url": "https://www.theverge.com/2024/10/8/24265238/honda-zero-first-drive-ev-weight-battery-vr-autonomous"
+                    }
+                ]
+            },
+            {
+                "topic": "Artificial Intelligence",
+                "summary": "This topic discusses various aspects of Artificial Intelligence, including its impact on industries, safety concerns, and innovative applications.",
+                "news_sources": [
+                    {
+                        "index": "4",
+                        "keywords": [
+                            "AI crime-fighting",
+                            "technology",
+                            "evidence",
+                            "law"
+                        ],
+                        "bias": "5",
+                        "title": "It Seemed Like an AI Crime-Fighting Super Tool. Then Defense Attorneys Started Asking Questions",
+                        "url": "https://www.wired.com/story/cybercheck-crime-reports-prosecutions/"
+                    },
+                    {
+                        "index": "14",
+                        "keywords": [
+                            "Trump",
+                            "AI",
+                            "safety",
+                            "regulation"
+                        ],
+                        "bias": "3",
+                        "title": "How a Trump Win Could Unleash Dangerous AI",
+                        "url": "https://www.wired.com/story/donald-trump-ai-safety-regulation/"
+                    },
+                    {
+                        "index": "34",
+                        "keywords": [
+                            "AI",
+                            "school",
+                            "lawsuit",
+                            "education"
+                        ],
+                        "bias": "4",
+                        "title": "Parents Sue School That Gave Bad Grade to Student Who Used AI to Complete Assignment",
+                        "url": "https://gizmodo.com/parents-sue-school-that-gave-bad-grade-to-student-who-used-ai-to-complete-assignment-2000512000"
+                    },
+                    {
+                        "index": "42",
+                        "keywords": [
+                            "AI",
+                            "filmmaking",
+                            "competition",
+                            "big tech"
+                        ],
+                        "bias": "5",
+                        "title": "Filmmakers Are Worried About AI. Big Tech Wants Them to See \u2018What's Possible\u2019",
+                        "url": "https://www.wired.com/story/filmmakers-are-worried-about-ai-big-tech-wants-them-to-see-whats-possible/"
+                    },
+                    {
+                        "index": "63",
+                        "keywords": [
+                            "AI",
+                            "democracy",
+                            "threat",
+                            "Lawrence Lessig"
+                        ],
+                        "bias": "6",
+                        "title": "How AI could hack democracy | Lawrence Lessig",
+                        "url": "https://www.ted.com/talks/lawrence_lessig_how_ai_could_hack_democracy"
+                    },
+                    {
+                        "index": "81",
+                        "keywords": [
+                            "AI",
+                            "technology",
+                            "lithium extraction",
+                            "innovation"
+                        ],
+                        "bias": "6",
+                        "title": "Researchers Develop New Lithium Extraction Method With 'Nearly Double the Performance'",
+                        "url": "https://hardware.slashdot.org/story/24/10/26/0427225/researchers-develop-new-lithium-extraction-method-with-nearly-double-the-performance"
+                    },
+                    {
+                        "index": "82",
+                        "keywords": [
+                            "Google",
+                            "AI",
+                            "search technology",
+                            "OpenAI"
+                        ],
+                        "bias": "5",
+                        "title": "Google just gave its AI access to Search, hours before OpenAI launched ChatGPT Search",
+                        "url": "https://venturebeat.com/ai/google-just-gave-its-ai-access-to-search-hours-before-openai-launched-chatgpt-search/"
+                    },
+                    {
+                        "index": "89",
+                        "keywords": [
+                            "OpenAI",
+                            "copyright law",
+                            "internet",
+                            "former employee"
+                        ],
+                        "bias": "7",
+                        "title": "Former OpenAI Staffer Says the Company Is Breaking Copyright Law and Destroying the Internet",
+                        "url": "https://gizmodo.com/former-openai-staffer-says-the-company-is-breaking-copyright-law-and-destroying-the-internet-2000515721"
+                    }
+                ]
+            },
+            {
+                "topic": "Sales and Discounts",
+                "summary": "This collection of articles focuses on significant sales events during Prime Day, highlighting notable discounts on various technology products.",
+                "news_sources": [
+                    {
+                        "index": "8",
+                        "keywords": [
+                            "Amazon",
+                            "sales",
+                            "discount",
+                            "Prime Day"
+                        ],
+                        "bias": "5",
+                        "title": "Unbelievable, This \u201c$1,000\u201d Portable Printer Is Now Under $100 for Amazon Prime Day",
+                        "url": "https://gizmodo.com/unbelievable-this-1000-portable-printer-is-now-under-100-for-amazon-prime-day-2000508592"
+                    },
+                    {
+                        "index": "19",
+                        "keywords": [
+                            "Bose",
+                            "headphones",
+                            "Prime Day",
+                            "discount"
+                        ],
+                        "bias": "4",
+                        "title": "Amazon is Offering a Huge Discount on The Bose QuietComfort Ultra if You Buy it Before The End of Prime Day Tonight",
+                        "url": "https://gizmodo.com/amazon-is-offering-a-huge-discount-on-the-bose-quietcomfort-ultra-if-you-buy-it-before-the-end-of-prime-day-tonight-2000509779"
+                    },
+                    {
+                        "index": "29",
+                        "keywords": [
+                            "LG",
+                            "C4 OLED",
+                            "TV",
+                            "Prime Day",
+                            "discount"
+                        ],
+                        "bias": "4",
+                        "title": "This Prime Day, Our Favorite TV is The 65-Inch LG C4 OLED at 45% Off",
+                        "url": "https://gizmodo.com/this-prime-day-our-favorite-tv-is-the-65-inch-lg-c4-oled-at-45-off-2000508365"
+                    },
+                    {
+                        "index": "30",
+                        "keywords": [
+                            "Sony",
+                            "headphones",
+                            "discount",
+                            "Prime Day"
+                        ],
+                        "bias": "5",
+                        "title": "3 times Cheaper Than The New XM5 Model, The Sony 1000XM4 Headphones Are 63% Off For Prime Day",
+                        "url": "https://gizmodo.com/3-times-cheaper-than-the-new-xm5-model-the-sony-1000xm4-headphones-are-63-off-for-prime-day-2000508199"
+                    },
+                    {
+                        "index": "31",
+                        "keywords": [
+                            "Samsung",
+                            "Galaxy Z Fold 6",
+                            "discount",
+                            "Prime Day"
+                        ],
+                        "bias": "5",
+                        "title": "The Galaxy Z Fold 6 Is Almost Free On The Samsung Site, $1500 Discount as a Prime Day Gift",
+                        "url": "https://gizmodo.com/the-galaxy-z-fold-6-is-almost-free-on-the-samsung-site-1500-discount-as-prime-day-gift-2000507365"
+                    },
+                    {
+                        "index": "57",
+                        "keywords": [
+                            "Samsung T7 Shield",
+                            "SSD",
+                            "discount"
+                        ],
+                        "bias": "4",
+                        "title": "In an Early Black Friday Deal on Amazon, This Samsung SSD is Priced at $0.073/GB",
+                        "url": "https://gizmodo.com/in-an-early-black-friday-deal-on-amazon-this-samsung-ssd-is-priced-at-0-073-gb-2000519968"
+                    },
+                    {
+                        "index": "58",
+                        "keywords": [
+                            "Google Nest WiFi",
+                            "discount",
+                            "Amazon",
+                            "Prime Day"
+                        ],
+                        "bias": "5",
+                        "title": "Google Discontinued Nest WiFi, Amazon Offers it at 80% Off After Prime Day",
+                        "url": "https://gizmodo.com/google-has-discontinued-the-nest-wifi-amazon-is-still-offering-it-at-nearly-80-off-prime-day-2000511440"
+                    },
+                    {
+                        "index": "60",
+                        "keywords": [
+                            "LG",
+                            "C4 TV",
+                            "Black Friday",
+                            "discount"
+                        ],
+                        "bias": "4",
+                        "title": "In an Early Black Friday Deal, Amazon is Offering $1,200 Off on This Stunning LG 65\u2033 C4 TV",
+                        "url": "https://gizmodo.com/in-an-early-black-friday-deal-amazon-is-offering-1200-off-on-this-stunning-lg-65-c4-tv-2000519988"
+                    }
+                ]
+            },
+            {
+                "topic": "Mayan Discoveries and Archaeology",
+                "summary": "This topic covers significant archaeological discoveries and technological advancements in mapping ancient civilizations, particularly related to the Maya.",
+                "news_sources": [
+                    {
+                        "index": "5",
+                        "keywords": [
+                            "Maya city",
+                            "laser mapping",
+                            "discovery",
+                            "Valeriana"
+                        ],
+                        "bias": "4",
+                        "title": "A Lost Mayan City Has Been Found With Laser Mapping",
+                        "url": "https://www.wired.com/story/lost-mayan-city-valeriana-lidar-discovery/"
+                    },
+                    {
+                        "index": "6",
+                        "keywords": [
+                            "Maya city",
+                            "LIDAR",
+                            "discovery",
+                            "infrastructure"
+                        ],
+                        "bias": "4",
+                        "title": "Lost Maya City, Including Pyramids, Discovered in Mexico\u2019s Jungle",
+                        "url": "https://gizmodo.com/lost-maya-city-including-pyramids-discovered-in-mexicos-jungle-2000517855"
+                    },
+                    {
+                        "index": "76",
+                        "keywords": [
+                            "Mayan city",
+                            "discovered",
+                            "phd student",
+                            "technology"
+                        ],
+                        "bias": "4",
+                        "title": "How a PhD Student Discovered a Lost Mayan City From Hundreds of Miles Away",
+                        "url": "https://www.wired.com/story/lost-maya-city-valeriana-interview/"
+                    }
+                ]
+            },
+            {
+                "topic": "Transportation Technology",
+                "summary": "This topic highlights advancements in transportation technology, from electric vehicles to AI integration in transportation services.",
+                "news_sources": [
+                    {
+                        "index": "11",
+                        "keywords": [
+                            "Tesla",
+                            "robotaxi",
+                            "Elon Musk",
+                            "transportation"
+                        ],
+                        "bias": "5",
+                        "title": "Musk promises self-driving Tesla taxis, but are they safe?",
+                        "url": "https://www.bbc.com/news/videos/c20p2gp4npeo"
+                    },
+                    {
+                        "index": "39",
+                        "keywords": [
+                            "Xpeng",
+                            "EV",
+                            "competition",
+                            "Elon Musk"
+                        ],
+                        "bias": "4",
+                        "title": "This Chinese EV maker is up for a battle with Elon Musk in China",
+                        "url": "https://www.businessinsider.com/chinese-tesla-rival-xpeng-welcomes-competition-from-elon-musk-2024-10"
+                    },
+                    {
+                        "index": "47",
+                        "keywords": [
+                            "Tesla",
+                            "Cybercab",
+                            "robotaxi"
+                        ],
+                        "bias": "5",
+                        "title": "Tesla Cybercab announced: Elon Musk\u2019s robotaxi is finally here",
+                        "url": "https://www.theverge.com/2024/10/10/24265530/tesla-robotaxi-elon-musk-features-range-price-release-date"
+                    }
+                ]
+            }
+        ],
+        "urlToImage": ""
+    }
+}
