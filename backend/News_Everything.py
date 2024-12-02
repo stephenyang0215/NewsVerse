@@ -1,17 +1,21 @@
 import requests
 import boto3
 import os
+from database import DB_operation
 from os.path import join, dirname
 import re
 import json
 import requests
-from dotenv import load_dotenv, find_dotenv
+from dotenv import load_dotenv
 
-class news():
-    def __init__(self, query_news, news_api, openai_api):
+class NewsApi():
+    def __init__(self, query_news, news_api, openai_api, id='1'):
+        self.dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
+        self.db_operation = DB_operation()
         self.query_news = query_news
         self.news_api = news_api
         self.openai_api = openai_api
+        self.id = id
 
     def str_cleansing(self, text):#preprocess the news
         cleaned_content = re.sub(r"\[.*?\]", "", text)
@@ -152,6 +156,9 @@ class news():
                         pass
             final_output[key] = parsed_json
             final_output[key]['urlToImage'] = ''
+        final_output['id'] = self.id
+        #access the table in dynamoDB. write the data to the database
+        self.db_operation.write(f'categories_news', final_output)
         return final_output
 
 
@@ -172,16 +179,9 @@ if __name__ == '__main__':
         "sports": ["basketball"],
         "technology": ["technology"]
         }
-    news_everything = news(query_news=query_news, news_api=news_api, openai_api=openai_api)
+    news_everything = NewsApi(query_news=query_news, news_api=news_api, openai_api=openai_api, id='2')
     news_dict = news_everything.news_aggregate()
     news_dict = news_everything.add_index(news_dict)
     news_everything.write_json(news_dict, 'news_dict_keywords.json')
     news_dict = news_everything.remove_url(news_dict)
     final_output = news_everything.iter_call_chatgpt(news_dict)
-    final_output['id'] = '2'
-    dynamodb = boto3.resource('dynamodb')
-    table = dynamodb.Table(f'categories_news')
-    table.put_item(
-            Item=final_output
-    )
-    print(f'Data is inserted into the categories_news table successfully.')

@@ -3,26 +3,21 @@ import openai
 import boto3
 from database import DB_operation
 import os
+from dotenv import load_dotenv
 
 class Headline_Keywords():
-    def __init__(self):
+    def __init__(self, news_api, openai_api, id='2'):
         self.dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
-        self.time_table = self.dynamodb.Table('time')
         self.db_operation = DB_operation()
-        response = self.db_operation.lambda_handler(self.time_table)
-        self.time = response['Items'][0]['time']
+        self.news_api = news_api
+        self.openai_api = openai_api
+        self.id = id
 
     def call_chatgpt(self):
-        for category in ['business','entertainment','general','health','science','sports','technology']:
+        for category in ['business']:
             print(f'Start fetching data for {category}')
-            table = self.dynamodb.Table(f'{category}-top-headlines')
+            response = self.db_operation.read('top_news', self.id)
             #Fetch the headlines
-            response = table.get_item(
-                Key={
-                    'id':'1',
-                    'date_time': self.time
-                }
-            )
             #Preprocess the headlines into the format for ChatGPT
             data = response['Item']['articles']
             headlines_lst = []
@@ -36,8 +31,7 @@ class Headline_Keywords():
 
             # Set up your API key
             #Initiate ChatGPT API
-            openai_api_key = os.environ.get('openai_api_key')
-            openai.api_key = openai_api_key
+            openai.api_key = self.openai_api
 
             response = openai.chat.completions.create(
             model="gpt-4o-2024-08-06",
@@ -62,13 +56,11 @@ class Headline_Keywords():
             response_format={"type": "json_object"}
             )
 
-
             # Parse ChatGPT JSON output into a Python dictionary
             parsed_json = json.loads(response.choices[0].message.content)
             
             ### Include the keywords by ChatGPT into the original headlines table
-            
-            response = self.db_operation.read(f'{category}-top-headlines', self.time)
+            response = self.db_operation.read('top_news', self.id)
             headlines_news = response['Item']
             headline_keywords = {'totalResults':headlines_news['totalResults'], 'date_time':headlines_news['date_time'], 'articles':[]}
             for headline in headlines_news['articles']:
@@ -81,8 +73,18 @@ class Headline_Keywords():
                 except Exception as e:
                     print("An error occurred:", e)
                     break
-            headline_keywords['id'] = '1'
-            headline_keywords['date_time'] = self.time
-            #access the table in dynamoDB
-            self.db_operation.write(f'{category}-top-headlines', headline_keywords)
+            headline_keywords['id'] = self.id
+            #access the table in dynamoDB. write the data to the database
+            self.db_operation.write(f'top_news', headline_keywords)
+
+if __name__ == '__main__':
+    # Load the environment variables for credentials
+    load_dotenv()
+    news_api = os.getenv('news_apiKey')
+    print('news_api: ', news_api)
+    openai_api = os.getenv('openai_api_key')
+    print('openai_api: ', openai_api)
+    headline = Headline_Keywords(news_api, openai_api, id='2')
+    headline.call_chatgpt()
+
             
