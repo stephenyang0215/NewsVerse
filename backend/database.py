@@ -17,7 +17,6 @@ class DB_operation():
     
     def read(self, table_name, id):
         dynamodb = boto3.resource('dynamodb')
-
         table = dynamodb.Table(table_name)
         response = table.get_item(
                 Key={
@@ -27,7 +26,8 @@ class DB_operation():
         return response
     
     def write(self, table_name, headline_keywords):
-        table = self.dynamodb.Table(table_name)
+        dynamodb = boto3.resource('dynamodb')
+        table = dynamodb.Table(table_name)
         table.put_item(
                 Item=headline_keywords
         )

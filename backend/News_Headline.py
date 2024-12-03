@@ -6,7 +6,7 @@ from database import DB_operation
 
 
 class Headline():
-    def __init__(self, news_api, id='2'):
+    def __init__(self, news_api, id='1'):
         # Init
         self.news_api = news_api
         self.id = id
@@ -29,5 +29,5 @@ if __name__ == '__main__':
     load_dotenv()
     news_api = os.getenv('news_apiKey')
     print('news_api: ', news_api)
-    headline = Headline(news_api, id='2')
+    headline = Headline(news_api, id='1')
     headline.call_api()

@@ -5,14 +5,14 @@ sys.path.append(
 from News_Headline import Headline
 
 def test_attribute():
-    id='1'
+    id='4'
     news_api = '123'
     headline = Headline(news_api, id)
     assert type(headline.id) == str
     assert type(headline.news_api) == str
 
 def test_db_response():
-    id='1'
+    id='4'
     news_api = '123'
     headline = Headline(news_api, id)
     table = headline.dynamodb.Table(f'top_news')

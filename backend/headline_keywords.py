@@ -62,7 +62,7 @@ class Headline_Keywords():
             ### Include the keywords by ChatGPT into the original headlines table
             response = self.db_operation.read('top_news', self.id)
             headlines_news = response['Item']
-            headline_keywords = {'totalResults':headlines_news['totalResults'], 'date_time':headlines_news['date_time'], 'articles':[]}
+            headline_keywords = {'totalResults':headlines_news['totalResults'], 'articles':[]}
             for headline in headlines_news['articles']:
                 try:
                     for chatgpt_headline in parsed_json['headlines']:
@@ -84,7 +84,7 @@ if __name__ == '__main__':
     print('news_api: ', news_api)
     openai_api = os.getenv('openai_api_key')
     print('openai_api: ', openai_api)
-    headline = Headline_Keywords(news_api, openai_api, id='2')
+    headline = Headline_Keywords(news_api, openai_api, id='1')
     headline.call_chatgpt()
 
             
