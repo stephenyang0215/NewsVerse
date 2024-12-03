@@ -1,8 +1,11 @@
+'''
+This is the module for all categories news which fetch the news sources and use ChatGPT to summarize the news.
+In order to run the task, it's required to include the ChatGPT and NewsAPI crentials in the .env file for setting up the environment variables.
+'''
 import requests
 import boto3
 import os
 from database import DB_operation
-from os.path import join, dirname
 import re
 import json
 import requests
@@ -10,11 +13,15 @@ from dotenv import load_dotenv
 
 class NewsApi():
     def __init__(self, query_news, news_api, openai_api, id='1'):
-        self.dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
+        #db_operation: the instance of the Database module
         self.db_operation = DB_operation()
+        #query_news: the dictionary of each category with its keywords
         self.query_news = query_news
+        #news_api: the credential for NewsApi
         self.news_api = news_api
+        #openai_api: the credential for ChatGPT
         self.openai_api = openai_api
+        #id: the index for the data to store in the table
         self.id = id
 
     def str_cleansing(self, text):#preprocess the news

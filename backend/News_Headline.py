@@ -1,5 +1,8 @@
+'''
+This is the NewsApi module for the top news to fetch the latest top news.
+In order to run the task, it's required to include the NewsAPI crentials in the .env file for setting up the environment variables.
+'''
 import requests
-import boto3
 import os
 from dotenv import load_dotenv
 from database import DB_operation
@@ -7,15 +10,15 @@ from database import DB_operation
 
 class Headline():
     def __init__(self, news_api, id='1'):
-        # Init
+        #news_api: the credential for NewsApi
         self.news_api = news_api
+        #id: the index for the data to store in the table
         self.id = id
-        self.dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
+        #db_operation: the instance of the Database module 
         self.db_operation = DB_operation()
 
+    #call_api: fetch the top news by the category specified. This endpoint supports the following categories: business|entertainment|general|health|science|sports|technology 
     def call_api(self, category_list=['business']):
-            # /v2/top-headlines
-            #categories: business|entertainment|general|health|science|sports|technology 
             for category in category_list:
                 print(f'Start fetching data for {category}')
                 news_get_request = requests.get(f'https://newsapi.org/v2/top-headlines?category={category}&apiKey={self.news_api}')
