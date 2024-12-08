@@ -11,7 +11,7 @@ class DB_operation():
         dynamodb = boto3.resource('dynamodb')
         #Connect to the table
         table = dynamodb.Table(table_name)
-        #invoke the operation
+        #Invoke the operation
         response = table.get_item(
                 Key={
                     'id':id

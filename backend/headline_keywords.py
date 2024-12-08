@@ -1,17 +1,21 @@
 import json
 import openai
-import boto3
-from database import DB_operation
+from Database import DB_operation
 import os
 from dotenv import load_dotenv
 
 class Headline_Keywords():
-    def __init__(self, news_api, openai_api, id='2'):
-        self.dynamodb = boto3.resource('dynamodb', region_name='us-east-1')
-        self.db_operation = DB_operation()
+    def __init__(self, news_api, openai_api, id='1'):        
+        if type(news_api) != str:
+            raise TypeError(f'The input news_api: {news_api} should be string type.')
         self.news_api = news_api
+        if type(openai_api) != str:
+            raise TypeError(f'The input openai_api: {openai_api} should be string type.')
         self.openai_api = openai_api
+        if type(id) != str:
+            raise TypeError(f'The input id: {id} should be string type.')
         self.id = id
+        self.db_operation = DB_operation()
 
     def call_chatgpt(self):
         for category in ['business']:

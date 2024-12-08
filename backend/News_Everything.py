@@ -3,9 +3,8 @@ This is the module for all categories news which fetch the news sources and use 
 In order to run the task, it's required to include the ChatGPT and NewsAPI crentials in the .env file for setting up the environment variables.
 '''
 import requests
-import boto3
 import os
-from database import DB_operation
+from Database import DB_operation
 import re
 import json
 import requests
@@ -13,18 +12,29 @@ from dotenv import load_dotenv
 
 class NewsApi():
     def __init__(self, query_news, news_api, openai_api, id='1'):
-        #db_operation: the instance of the Database module
-        self.db_operation = DB_operation()
         #query_news: the dictionary of each category with its keywords
+        if type(query_news) != dict:
+            raise TypeError(f'The input query_news: {query_news} should be dictionary type.')
         self.query_news = query_news
         #news_api: the credential for NewsApi
+        if type(news_api) != str:
+            raise TypeError(f'The input news_api: {news_api} should be string type.')
         self.news_api = news_api
         #openai_api: the credential for ChatGPT
+        if type(openai_api) != str:
+            raise TypeError(f'The input openai_api: {openai_api} should be string type.')
         self.openai_api = openai_api
         #id: the index for the data to store in the table
+        if type(id) != str:
+            raise TypeError(f'The input id: {id} should be string type.')
         self.id = id
+        #db_operation: the instance of the Database module
+        self.db_operation = DB_operation()
 
-    def str_cleansing(self, text):#preprocess the news
+    def str_cleansing(self, text):
+    #Cleanse the strings
+        if type(text) != str:
+            raise TypeError(f'The input text: {text} should be string type.')
         cleaned_content = re.sub(r"\[.*?\]", "", text)
         cleaned_content = re.sub(r"</?ul>|</?li>|\r|\n|\.{3}|…", "", cleaned_content)
         cleaned_content = re.sub(r"\s{2,}", " ", cleaned_content)
@@ -32,16 +42,25 @@ class NewsApi():
         return cleaned_content
     
     def write_json(self, data, filename):
+    #Write data to json file
+        if type(filename) != str:
+            raise TypeError(f'The input filename: {filename} should be string type.')
         with open(filename, 'w') as file:
             json.dump(data, file, indent=4)
         print(f"Dictionary saved to {filename}")
 
     def read_json(filename):
+    #Read data from json file
+        if type(filename) != str:
+            raise TypeError(f'The input filename: {filename} should be string type.')
         with open(filename, 'r') as file:
             data = json.load(file)
         return data
     
     def newsapi_call(self, query):
+    #Call the News API endpoints
+        if type(query) != str:
+            raise TypeError(f'The input query: {query} should be string type.')
         data = []
         news_get_request = requests.get(f'https://newsapi.org/v2/everything?q={query}&apiKey={self.news_api}&language=en')
         news_json = news_get_request.json()
@@ -64,7 +83,7 @@ class NewsApi():
         return data
     
     def news_aggregate(self):
-        #aggregate all the news from the calls
+    #Aggregate all the news it collected
         news_dict = {key: [] for key in self.query_news.keys()}
         for key in self.query_news.keys():
             for query in self.query_news[key]:
@@ -72,8 +91,10 @@ class NewsApi():
                 news_dict[key].extend(everything_data)
         return news_dict
     
-    #add the index to each news
     def add_index(self, data):
+    #Add the index to each news
+        if type(data) != dict:
+            raise TypeError(f'The input data: {data} should be dictionary type.')
         for key in data.keys():
             index = 0
             for news in data[key]:
@@ -82,15 +103,21 @@ class NewsApi():
         self.write_json(news_dict, 'news_dict_keywords.json')
         return data
     
-    #reformat the data to chatgpt api: remove url
     def remove_url(self, data):
+    #Remove url from the data before feeding to Chatgpt
+        if type(data) != dict:
+            raise TypeError(f'The input data: {data} should be dictionary type.')
         for key in data.keys():
             for news in data[key]:
                 del news["url"]
         return data
     
-    #Call ChatGPT API
     def openai_api_call(self, data_category, model):
+    #Call ChatGPT API
+        if type(data_category) != str:
+            raise TypeError(f'The input data_category: {data_category} should be string type.')
+        if type(model) != str:
+            raise TypeError(f'The input model: {model} should be string type.')
         if self.openai_api is None:
             raise ValueError("OpenAI API key is not set in environment variables.")
         url = "https://api.openai.com/v1/chat/completions"
@@ -143,7 +170,9 @@ class NewsApi():
         return json.loads(response.json()['choices'][0]['message']['content'])
     
     def iter_call_chatgpt(self, news_dict):
-        #Call Chatgpt API to fetch the response iteratively by all categories
+    #Iterative over each news category to call ChatGPT API and retrieve back the response
+        if type(news_dict) != dict:
+            raise TypeError(f'The input news_dict: {news_dict} should be dictionary type.')
         final_output = {}
         for key in news_dict.keys():
             data_category = news_dict[key]
@@ -164,10 +193,9 @@ class NewsApi():
             final_output[key] = parsed_json
             final_output[key]['urlToImage'] = ''
         final_output['id'] = self.id
-        #access the table in dynamoDB. write the data to the database
+        #access the table in dynamoDB. Write the data to the database
         self.db_operation.write(f'categories_news', final_output)
         return final_output
-
 
 if __name__ == '__main__':
     # Load the environment variables for credentials
