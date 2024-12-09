@@ -5,10 +5,7 @@ import os
 from dotenv import load_dotenv
 
 class Headline_Keywords():
-    def __init__(self, news_api, openai_api, id='1'):        
-        if type(news_api) != str:
-            raise TypeError(f'The input news_api: {news_api} should be string type.')
-        self.news_api = news_api
+    def __init__(self, openai_api, id='1'):        
         if type(openai_api) != str:
             raise TypeError(f'The input openai_api: {openai_api} should be string type.')
         self.openai_api = openai_api
@@ -84,11 +81,9 @@ class Headline_Keywords():
 if __name__ == '__main__':
     # Load the environment variables for credentials
     load_dotenv()
-    news_api = os.getenv('news_apiKey')
-    print('news_api: ', news_api)
     openai_api = os.getenv('openai_api_key')
     print('openai_api: ', openai_api)
-    headline = Headline_Keywords(news_api, openai_api, id='1')
+    headline = Headline_Keywords(openai_api, id='1')
     headline.call_chatgpt()
 
             
