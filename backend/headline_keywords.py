@@ -1,6 +1,6 @@
 import json
 import openai
-from Database import DB_operation
+from Database import DB_Operation
 import os
 from dotenv import load_dotenv
 
@@ -15,7 +15,7 @@ class Headline_Keywords():
         if type(id) != str:
             raise TypeError(f'The input id: {id} should be string type.')
         self.id = id
-        self.db_operation = DB_operation()
+        self.db_operation = DB_Operation()
 
     def call_chatgpt(self):
         for category in ['business']:

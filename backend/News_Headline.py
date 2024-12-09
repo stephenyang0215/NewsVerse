@@ -5,7 +5,7 @@ In order to run the task, it's required to include the NewsAPI crentials in the 
 import requests
 import os
 from dotenv import load_dotenv
-from Database import DB_operation
+from Database import DB_Operation
 
 
 class Headline():
@@ -19,10 +19,10 @@ class Headline():
             raise TypeError(f'The input id: {id} should be string type.')
         self.id = id
         #db_operation: the instance of the Database module 
-        self.db_operation = DB_operation()
+        self.db_operation = DB_Operation()
 
     #call_api: fetch the top news by the category specified. This endpoint supports the following categories: business|entertainment|general|health|science|sports|technology 
-    def call_api(self, category_list=['business']):
+    def call_newsapi(self, category_list=['business']):
             if type(category_list) not in (list):
                 raise TypeError(f'The input category_list: {category_list} should be list type.')
             for category in category_list:
@@ -41,4 +41,4 @@ if __name__ == '__main__':
     news_api = os.getenv('news_apiKey')
     print('news_api: ', news_api)
     headline = Headline(news_api, id='1')
-    headline.call_api()
+    headline.call_newsapi()

@@ -6,7 +6,7 @@ import sys
 import os.path
 sys.path.append(
     os.path.abspath(os.path.join(os.path.dirname(__file__), os.path.pardir)))
-from Headline_keywords import Headline_Keywords
+from Headline_Keywords import Headline_Keywords
 
 #test the attribute of the module
 def test_attribute():

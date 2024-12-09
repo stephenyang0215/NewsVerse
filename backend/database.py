@@ -4,7 +4,7 @@ In order to run the operation, it's required to set up AWS crentials configurati
 '''
 import boto3
 
-class DB_operation():
+class DB_Operation():
     #read your data from the database
     def read(self, table_name, id):
         #Initiate the dynamodb instance
